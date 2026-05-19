@@ -28,7 +28,9 @@ jobs:
       - name: Run security scan
         env:
           SKILL_SCANNER_LLM_API_KEY: ${{ secrets.SKILL_SCANNER_LLM_API_KEY }}
-          SKILL_SCANNER_LLM_MODEL: ${{ vars.SKILL_SCANNER_LLM_MODEL || 'claude-sonnet-4-6' }}
+          SKILL_SCANNER_LLM_MODEL: ${{ vars.SKILL_SCANNER_LLM_MODEL ||'MiniMax-M2.7' }}
+          SKILL_SCANNER_LLM_PROVIDER: ${{ vars.SKILL_SCANNER_LLM_PROVIDER|| 'openai-compatible' }}
+          SKILL_SCANNER_LLM_BASE_URL: ${{ vars.SKILL_SCANNER_LLM_BASE_URL|| 'https://api.minimax.io/v1' }}
         run: uv run python scan_skills.py
 
       - name: Commit updated SECURITY.md
