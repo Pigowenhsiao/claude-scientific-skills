@@ -29,14 +29,22 @@ def build_scanner() -> SkillScanner:
     policy.llm_analysis.max_referenced_file_chars = 75_000
     policy.llm_analysis.max_code_file_chars = 75_000
     policy.llm_analysis.max_total_prompt_chars = 500_000
-    llm_model = os.getenv("SKILL_SCANNER_LLM_MODEL", "anthropic/claude-sonnet-4-6")
+    llm_model = os.getenv("SKILL_SCANNER_LLM_MODEL", "MiniMax-M2.7")
     llm_key = os.getenv("SKILL_SCANNER_LLM_API_KEY")
+    llm_base_url = os.getenv("SKILL_SCANNER_LLM_BASE_URL")
+    llm_provider = os.getenv("SKILL_SCANNER_LLM_PROVIDER", "openai-compatible")
 
     scanner = SkillScanner(
         analyzers=[
             BehavioralAnalyzer(),
             TriggerAnalyzer(),
-            LLMAnalyzer(model=llm_model, api_key=llm_key, policy=policy),
+              LLMAnalyzer(
+                          model=llm_model,
+                          api_key=llm_key,
+                          base_url=llm_base_url,
+                          provider=llm_provider,
+                          policy=policy,
+  ),
         ],
         policy=policy,
     )
