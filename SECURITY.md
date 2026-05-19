@@ -1,14 +1,22 @@
 # Security Scan Report
 
+<<<<<<< Updated upstream
 **Generated:** 2026-05-18 11:39 UTC  
 **Skills scanned:** 138  
 **Total findings:** 856  
 **Critical:** 68 | **High:** 18 | **Safe skills:** 107/138
+=======
+**Generated:** 2026-05-19 05:11 UTC  
+**Skills scanned:** 136  
+**Total findings:** 475  
+**Critical:** 63 | **High:** 18 | **Safe skills:** 106/136
+>>>>>>> Stashed changes
 
 ## Summary
 
 | Skill | Severity | Findings | Safe | Duration |
 |-------|----------|----------|------|----------|
+<<<<<<< Updated upstream
 | autoskill | 🔴 CRITICAL | 13 | ❌ | 49.3s |
 | citation-management | 🔴 CRITICAL | 12 | ❌ | 27.1s |
 | clinical-decision-support | 🔴 CRITICAL | 9 | ❌ | 53.2s |
@@ -147,6 +155,144 @@
 | glycoengineering | ⚪ INFO | 1 | ✅ | 1.7s |
 | anndata | 🟢 SAFE | 0 | ✅ | 6.0s |
 | statistical-analysis | 🟢 SAFE | 0 | ✅ | 11.0s |
+=======
+| autoskill | 🔴 CRITICAL | 9 | ❌ | 6.7s |
+| citation-management | 🔴 CRITICAL | 10 | ❌ | 2.0s |
+| clinical-decision-support | 🔴 CRITICAL | 6 | ❌ | 9.9s |
+| clinical-reports | 🔴 CRITICAL | 6 | ❌ | 4.8s |
+| hypothesis-generation | 🔴 CRITICAL | 6 | ❌ | 0.5s |
+| infographics | 🔴 CRITICAL | 6 | ❌ | 0.7s |
+| latex-posters | 🔴 CRITICAL | 6 | ❌ | 0.6s |
+| literature-review | 🔴 CRITICAL | 6 | ❌ | 3.3s |
+| markitdown | 🔴 CRITICAL | 7 | ❌ | 2.8s |
+| peer-review | 🔴 CRITICAL | 6 | ❌ | 0.5s |
+| pptx-posters | 🔴 CRITICAL | 6 | ❌ | 0.5s |
+| research-grants | 🔴 CRITICAL | 6 | ❌ | 0.5s |
+| scholar-evaluation | 🔴 CRITICAL | 6 | ❌ | 1.8s |
+| scientific-critical-thinking | 🔴 CRITICAL | 6 | ❌ | 0.5s |
+| scientific-schematics | 🔴 CRITICAL | 6 | ❌ | 0.5s |
+| scientific-slides | 🔴 CRITICAL | 10 | ❌ | 3.4s |
+| scientific-writing | 🔴 CRITICAL | 6 | ❌ | 1.8s |
+| treatment-plans | 🔴 CRITICAL | 6 | ❌ | 5.3s |
+| venue-templates | 🔴 CRITICAL | 6 | ❌ | 3.6s |
+| esm | 🟠 HIGH | 2 | ❌ | 0.0s |
+| geomaster | 🟠 HIGH | 4 | ❌ | 0.0s |
+| modal | 🟠 HIGH | 6 | ❌ | 0.0s |
+| pathml | 🟠 HIGH | 5 | ❌ | 0.0s |
+| polars | 🟠 HIGH | 2 | ❌ | 0.0s |
+| pytorch-lightning | 🟠 HIGH | 2 | ❌ | 0.0s |
+| qutip | 🟠 HIGH | 2 | ❌ | 0.0s |
+| sympy | 🟠 HIGH | 2 | ❌ | 0.0s |
+| torch-geometric | 🟠 HIGH | 4 | ❌ | 0.0s |
+| torchdrug | 🟠 HIGH | 2 | ❌ | 0.0s |
+| transformers | 🟠 HIGH | 2 | ❌ | 0.0s |
+| exa-search | 🟡 MEDIUM | 3 | ✅ | 0.0s |
+| imaging-data-commons | 🟡 MEDIUM | 2 | ✅ | 0.0s |
+| labarchive-integration | 🟡 MEDIUM | 4 | ✅ | 3.1s |
+| open-notebook | 🟡 MEDIUM | 16 | ✅ | 2.4s |
+| phylogenetics | 🟡 MEDIUM | 5 | ✅ | 1.4s |
+| protocolsio-integration | 🟡 MEDIUM | 3 | ✅ | 0.0s |
+| pymatgen | 🟡 MEDIUM | 2 | ✅ | 3.4s |
+| adaptyv | ⚪ INFO | 1 | ✅ | 0.0s |
+| aeon | ⚪ INFO | 1 | ✅ | 0.0s |
+| anndata | ⚪ INFO | 1 | ✅ | 0.0s |
+| arboreto | ⚪ INFO | 1 | ✅ | 0.0s |
+| astropy | ⚪ INFO | 1 | ✅ | 0.0s |
+| benchling-integration | ⚪ INFO | 1 | ✅ | 0.0s |
+| bgpt-paper-search | ⚪ INFO | 1 | ✅ | 0.0s |
+| biopython | ⚪ INFO | 1 | ✅ | 0.0s |
+| bioservices | ⚪ INFO | 1 | ✅ | 8.0s |
+| cellxgene-census | ⚪ INFO | 1 | ✅ | 0.0s |
+| cirq | ⚪ INFO | 1 | ✅ | 0.0s |
+| cobrapy | ⚪ INFO | 1 | ✅ | 0.0s |
+| consciousness-council | ⚪ INFO | 1 | ✅ | 0.0s |
+| dask | ⚪ INFO | 1 | ✅ | 0.0s |
+| database-lookup | ⚪ INFO | 1 | ✅ | 0.0s |
+| datamol | ⚪ INFO | 1 | ✅ | 0.0s |
+| deepchem | ⚪ INFO | 1 | ✅ | 2.8s |
+| deeptools | ⚪ INFO | 1 | ✅ | 1.3s |
+| depmap | ⚪ INFO | 1 | ✅ | 0.0s |
+| dhdna-profiler | ⚪ INFO | 1 | ✅ | 0.0s |
+| diffdock | ⚪ INFO | 1 | ✅ | 4.2s |
+| dnanexus-integration | ⚪ INFO | 1 | ✅ | 0.0s |
+| docx | ⚪ INFO | 1 | ✅ | 4.8s |
+| etetoolkit | ⚪ INFO | 1 | ✅ | 2.2s |
+| exploratory-data-analysis | ⚪ INFO | 1 | ✅ | 3.0s |
+| flowio | ⚪ INFO | 1 | ✅ | 0.0s |
+| fluidsim | ⚪ INFO | 1 | ✅ | 0.0s |
+| generate-image | ⚪ INFO | 1 | ✅ | 1.3s |
+| geniml | ⚪ INFO | 1 | ✅ | 0.0s |
+| geopandas | ⚪ INFO | 1 | ✅ | 0.0s |
+| get-available-resources | ⚪ INFO | 1 | ✅ | 1.9s |
+| gget | ⚪ INFO | 1 | ✅ | 2.8s |
+| ginkgo-cloud-lab | ⚪ INFO | 1 | ✅ | 0.0s |
+| glycoengineering | ⚪ INFO | 1 | ✅ | 0.0s |
+| gtars | ⚪ INFO | 1 | ✅ | 0.0s |
+| histolab | ⚪ INFO | 1 | ✅ | 0.0s |
+| hugging-science | ⚪ INFO | 1 | ✅ | 1.6s |
+| hypogenic | ⚪ INFO | 1 | ✅ | 0.0s |
+| iso-13485-certification | ⚪ INFO | 1 | ✅ | 0.4s |
+| lamindb | ⚪ INFO | 1 | ✅ | 0.0s |
+| latchbio-integration | ⚪ INFO | 1 | ✅ | 0.0s |
+| markdown-mermaid-writing | ⚪ INFO | 1 | ✅ | 0.0s |
+| market-research-reports | ⚪ INFO | 1 | ✅ | 1.0s |
+| matchms | ⚪ INFO | 1 | ✅ | 0.0s |
+| matlab | ⚪ INFO | 1 | ✅ | 0.0s |
+| matplotlib | ⚪ INFO | 1 | ✅ | 4.2s |
+| medchem | ⚪ INFO | 1 | ✅ | 2.5s |
+| molecular-dynamics | ⚪ INFO | 1 | ✅ | 0.0s |
+| molfeat | ⚪ INFO | 1 | ✅ | 0.0s |
+| networkx | ⚪ INFO | 1 | ✅ | 0.0s |
+| neurokit2 | ⚪ INFO | 1 | ✅ | 0.0s |
+| neuropixels-analysis | ⚪ INFO | 1 | ✅ | 4.4s |
+| omero-integration | ⚪ INFO | 1 | ✅ | 0.0s |
+| opentrons-integration | ⚪ INFO | 1 | ✅ | 0.9s |
+| optimize-for-gpu | ⚪ INFO | 1 | ✅ | 0.0s |
+| paper-lookup | ⚪ INFO | 1 | ✅ | 0.0s |
+| paperzilla | ⚪ INFO | 1 | ✅ | 0.0s |
+| parallel-web | ⚪ INFO | 1 | ✅ | 0.0s |
+| pdf | ⚪ INFO | 1 | ✅ | 5.1s |
+| pennylane | ⚪ INFO | 1 | ✅ | 0.0s |
+| polars-bio | ⚪ INFO | 1 | ✅ | 0.0s |
+| pptx | ⚪ INFO | 1 | ✅ | 8.2s |
+| primekg | ⚪ INFO | 1 | ✅ | 1.0s |
+| pufferlib | ⚪ INFO | 1 | ✅ | 1.1s |
+| pydeseq2 | ⚪ INFO | 1 | ✅ | 0.0s |
+| pydicom | ⚪ INFO | 1 | ✅ | 1.1s |
+| pyhealth | ⚪ INFO | 1 | ✅ | 0.0s |
+| pylabrobot | ⚪ INFO | 1 | ✅ | 0.0s |
+| pymc | ⚪ INFO | 1 | ✅ | 5.0s |
+| pymoo | ⚪ INFO | 1 | ✅ | 1.1s |
+| pyopenms | ⚪ INFO | 1 | ✅ | 0.0s |
+| pysam | ⚪ INFO | 1 | ✅ | 0.0s |
+| pytdc | ⚪ INFO | 1 | ✅ | 3.4s |
+| pyzotero | ⚪ INFO | 1 | ✅ | 0.0s |
+| qiskit | ⚪ INFO | 1 | ✅ | 0.0s |
+| rdkit | ⚪ INFO | 1 | ✅ | 3.1s |
+| rowan | ⚪ INFO | 1 | ✅ | 0.0s |
+| scanpy | ⚪ INFO | 1 | ✅ | 0.8s |
+| scientific-brainstorming | ⚪ INFO | 1 | ✅ | 0.0s |
+| scientific-visualization | ⚪ INFO | 1 | ✅ | 2.0s |
+| scikit-bio | ⚪ INFO | 1 | ✅ | 0.0s |
+| scikit-learn | ⚪ INFO | 1 | ✅ | 2.3s |
+| scikit-survival | ⚪ INFO | 1 | ✅ | 0.0s |
+| scvelo | ⚪ INFO | 1 | ✅ | 0.0s |
+| scvi-tools | ⚪ INFO | 1 | ✅ | 0.0s |
+| seaborn | ⚪ INFO | 1 | ✅ | 0.0s |
+| shap | ⚪ INFO | 1 | ✅ | 0.0s |
+| simpy | ⚪ INFO | 1 | ✅ | 0.6s |
+| stable-baselines3 | ⚪ INFO | 1 | ✅ | 0.7s |
+| statistical-analysis | ⚪ INFO | 1 | ✅ | 2.5s |
+| statsmodels | ⚪ INFO | 1 | ✅ | 0.0s |
+| tiledbvcf | ⚪ INFO | 1 | ✅ | 0.0s |
+| timesfm-forecasting | ⚪ INFO | 1 | ✅ | 10.9s |
+| umap-learn | ⚪ INFO | 1 | ✅ | 0.0s |
+| usfiscaldata | ⚪ INFO | 1 | ✅ | 0.0s |
+| vaex | ⚪ INFO | 1 | ✅ | 0.0s |
+| what-if-oracle | ⚪ INFO | 1 | ✅ | 0.0s |
+| xlsx | ⚪ INFO | 1 | ✅ | 4.5s |
+| zarr-python | ⚪ INFO | 1 | ✅ | 0.0s |
+>>>>>>> Stashed changes
 
 ## Detailed Findings
 
@@ -154,6 +300,7 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 7 files
   > Environment variable access with network calls in scripts/backends.py, scripts/doctor.py, scripts/run.py
+<<<<<<< Updated upstream
   > **Remediation:** Review data flow across files: tests/test_backends.py, scripts/doctor.py, scripts/run.py, tests/test_run.py, tests/test_e2e.py, scripts/backends.py, tests/test_fetch_window.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 8 files
@@ -164,6 +311,18 @@
   > The YAML manifest does not specify a 'compatibility' field. While this is optional per the skill spec, the skill makes network calls to external cloud APIs (Anthropic, Foundry) when configured to do so, which may not be compatible with all environments (air-gapped systems, corporate proxies). The description mentions network access but the manifest compatibility field is absent, which could mislead users about deployment requirements.
   > File: `SKILL.md`
   > **Remediation:** Add a compatibility field documenting network requirements, e.g.: 'compatibility: Requires screenpipe daemon on localhost:3030. Cloud backends (claude, foundry) require outbound HTTPS. Local backend (default) is fully offline after model download.'
+=======
+  > **Remediation:** Review data flow across files: tests/test_fetch_window.py, tests/test_run.py, scripts/run.py, tests/test_e2e.py, scripts/backends.py, scripts/doctor.py, tests/test_backends.py
+
+- **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 8 files
+  > Multi-file exfiltration chain detected: scripts/backends.py, scripts/doctor.py, scripts/run.py collect data → tests/smoke_lmstudio.py, scripts/run.py → tests/test_e2e.py, tests/test_run.py, tests/test_fetch_window.py, tests/test_backends.py, scripts/backends.py, scripts/doctor.py, scripts/run.py transmit to network
+  > **Remediation:** Review data flow across files: tests/test_fetch_window.py, tests/smoke_lmstudio.py, tests/test_run.py, scripts/run.py, tests/test_e2e.py, scripts/backends.py, scripts/doctor.py, tests/test_backends.py
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🔴 CRITICAL** `BEHAVIOR_ENV_VAR_EXFILTRATION` — Environment variable access with network calls detected
   > Script accesses environment variables and makes network calls in scientific-skills/autoskill/scripts/backends.py
@@ -195,6 +354,7 @@
   > File: `scientific-skills/autoskill/scripts/run.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Environment Variable Access for API Keys Sent to External Network Endpoints
   > The skill reads three environment variables (SCREENPIPE_TOKEN, ANTHROPIC_API_KEY, FOUNDRY_API_KEY) and transmits them as authentication credentials to network endpoints. While the skill documents this behavior explicitly and the stated purpose is legitimate authentication, the pattern of reading secrets from the environment and sending them over the network is flagged by static analysis as a potential exfiltration chain. The behavior is consistent with the documented design: each key is used only for its named endpoint (screenpipe localhost, Anthropic API, or Foundry gateway). No evidence of exfiltration to undocumented third-party endpoints was found. This is LOW severity because the behavior is transparent, documented, and user-controlled via opt-in configuration.
   > File: `scripts/backends.py`
@@ -215,10 +375,13 @@
   > File: `scripts/synthesize.py`
   > **Remediation:** Sanitize window titles before including them in LLM prompts: truncate to a maximum length (e.g., 100 chars), strip or escape characters that could be interpreted as prompt structure (newlines, dashes that form markdown headers, JSON-like braces). Consider wrapping the titles in a clearly delimited block with explicit instructions to the LLM to treat the content as data, not instructions.
 
+=======
+>>>>>>> Stashed changes
 ### citation-management — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 6 files
   > Environment variable access with network calls in scripts/extract_metadata.py, scripts/generate_schematic.py, scripts/search_pubmed.py, scripts/generate_schematic_ai.py
+<<<<<<< Updated upstream
   > **Remediation:** Review data flow across files: scripts/extract_metadata.py, scripts/generate_schematic_ai.py, scripts/generate_schematic.py, scripts/doi_to_bibtex.py, scripts/search_pubmed.py, scripts/validate_citations.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 6 files
@@ -238,6 +401,18 @@
   > The SKILL.md instructions recommend installing packages without version pins: 'pip install requests', 'pip install bibtexparser', 'pip install biopython', 'pip install scholarly', 'pip install selenium'. Unpinned dependencies are a supply chain risk as malicious or breaking updates could be automatically installed.
   > File: `SKILL.md`
   > **Remediation:** Pin all dependencies to specific versions (e.g., 'pip install requests==2.31.0'). Provide a requirements.txt with pinned versions and hashes for reproducible, secure installations.
+=======
+  > **Remediation:** Review data flow across files: scripts/extract_metadata.py, scripts/generate_schematic.py, scripts/doi_to_bibtex.py, scripts/search_pubmed.py, scripts/generate_schematic_ai.py, scripts/validate_citations.py
+
+- **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 6 files
+  > Multi-file exfiltration chain detected: scripts/extract_metadata.py, scripts/generate_schematic.py, scripts/search_pubmed.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/extract_metadata.py, scripts/search_pubmed.py, scripts/doi_to_bibtex.py, scripts/validate_citations.py, scripts/generate_schematic_ai.py transmit to network
+  > **Remediation:** Review data flow across files: scripts/extract_metadata.py, scripts/generate_schematic.py, scripts/doi_to_bibtex.py, scripts/search_pubmed.py, scripts/generate_schematic_ai.py, scripts/validate_citations.py
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🔴 CRITICAL** `BEHAVIOR_ENV_VAR_EXFILTRATION` — Environment variable access with network calls detected
   > Script accesses environment variables and makes network calls in scientific-skills/citation-management/scripts/extract_metadata.py
@@ -284,10 +459,17 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Mandatory Schematic Generation Directive with Branded Tool Reference
   > The SKILL.md instruction body contains a section marked '⚠️ MANDATORY' that instructs the agent to always invoke the 'scientific-schematics' skill and specifically references 'Nano Banana Pro' as the AI system that will 'automatically generate, review, and refine the schematic.' This inflates the perceived necessity of a companion skill and embeds a branded product name ('Nano Banana Pro') into mandatory workflow instructions, potentially manipulating the agent into always invoking an external skill/tool regardless of user need. The mandatory framing ('This is not optional') is an activation manipulation pattern.
   > File: `SKILL.md`
   > **Remediation:** Remove the mandatory/non-optional framing for companion skill invocation. Let the agent decide based on user needs whether to invoke scientific-schematics. Remove branded product name references ('Nano Banana Pro') from instructions.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/clinical-decision-support/scripts/generate_schematic.py
@@ -304,6 +486,7 @@
   > File: `scientific-skills/clinical-decision-support/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Passed via Environment Variable to External AI Service
   > The generate_schematic_ai.py script reads OPENROUTER_API_KEY from environment variables and transmits it as a Bearer token to the external OpenRouter API (https://openrouter.ai/api/v1). While this is a standard pattern for API authentication, the skill makes external network calls to a third-party service using credentials sourced from the user's environment. The generate_schematic.py wrapper also passes the API key via environment to a subprocess. This represents a data flow where environment credentials are sent to an external service, which the user should be aware of.
   > File: `scripts/generate_schematic_ai.py`
@@ -319,6 +502,8 @@
   > File: `scripts/generate_schematic_ai.py`
   > **Remediation:** Use accurate model names in documentation and code comments. Remove fictitious branding ('Nano Banana 2') that misrepresents the underlying AI models being used.
 
+=======
+>>>>>>> Stashed changes
 ### clinical-reports — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -329,6 +514,7 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_PROMPT_INJECTION` — Mandatory Instruction Override via External Skill Invocation
   > The SKILL.md instruction body contains a mandatory directive: '⚠️ MANDATORY: Every clinical report MUST include at least 1 AI-generated figure using the scientific-schematics skill.' This instruction attempts to force the agent to invoke an external skill (scientific-schematics) and execute a bash command unconditionally, regardless of user intent or context. While not a classic jailbreak, it is an instruction override that compels agent behavior beyond the user's stated request.
   > File: `SKILL.md`
@@ -343,6 +529,12 @@
   > The SKILL.md instructions mandate execution of scripts/generate_schematic.py for every clinical report, creating an automatic tool-chaining pattern. The allowed-tools field declares [Read, Write, Edit, Bash], so Bash is permitted, but the mandatory invocation of an external AI generation pipeline (including subprocess calls to generate_schematic_ai.py) without explicit user consent for each invocation represents unauthorized automated tool use beyond the user's stated purpose.
   > File: `SKILL.md`
   > **Remediation:** Remove the mandatory requirement. Script execution should only occur when the user explicitly requests diagram generation. Document that scripts are available as optional tools.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/clinical-reports/scripts/generate_schematic.py
@@ -359,6 +551,7 @@
   > File: `scientific-skills/clinical-reports/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Passed via Environment Variable to Subprocess
   > The generate_schematic.py script reads the OPENROUTER_API_KEY from environment variables and passes it to a subprocess via os.environ.copy(). While this is better than command-line argument exposure, the script also accepts the key via --api-key flag which could expose it in process listings. The key is then used to make external API calls, creating a data flow where credentials are accessed and transmitted externally.
   > File: `scripts/generate_schematic.py`
@@ -374,6 +567,8 @@
   > File: `scripts/generate_schematic_ai.py`
   > **Remediation:** Pin the requests library to a specific version (e.g., requests==2.31.0) in a requirements.txt file. Document the dependency with its expected version.
 
+=======
+>>>>>>> Stashed changes
 ### hypothesis-generation — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -384,10 +579,17 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Undisclosed Third-Party AI Model Usage (Gemini, Nano Banana)
   > The skill description states it performs 'structured hypothesis formulation from observations' and 'follows scientific method framework', but the scripts silently invoke external AI models (described as 'Nano Banana 2' / google/gemini-3.1-flash-image-preview and 'Gemini 3.1 Pro Preview' / google/gemini-3.1-pro-preview) via OpenRouter. The YAML manifest description does not disclose that the skill makes external AI API calls or that it depends on third-party AI services. Users may not realize their research content is being processed by external AI models.
   > File: `SKILL.md`
   > **Remediation:** Update the skill description and SKILL.md to explicitly disclose that the schematic generation component makes external API calls to OpenRouter using Google Gemini models. Users should be informed of this dependency and data flow before using the skill.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/hypothesis-generation/scripts/generate_schematic.py
@@ -404,6 +606,7 @@
   > File: `scientific-skills/hypothesis-generation/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Passed via Environment Variable to Subprocess
   > In generate_schematic.py, the OPENROUTER_API_KEY is read from the environment and explicitly re-injected into the subprocess environment when calling generate_schematic_ai.py. While the code comments note this avoids exposure in process listings, the key is still propagated through environment variables across subprocess boundaries. This is a minor concern as it is the standard pattern for API key handling, but the key is read from the user's environment and used to make external network calls.
   > File: `scripts/generate_schematic.py`
@@ -419,6 +622,8 @@
   > File: `scripts/generate_schematic_ai.py:14`
   > **Remediation:** Include a requirements.txt file with pinned dependency versions (e.g., requests==2.31.0). This ensures reproducible and verifiable installations.
 
+=======
+>>>>>>> Stashed changes
 ### infographics — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -429,6 +634,14 @@
   > Multi-file exfiltration chain detected: scripts/generate_infographic_ai.py, scripts/generate_infographic.py collect data → scripts/generate_infographic_ai.py → scripts/generate_infographic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_infographic_ai.py, scripts/generate_infographic.py
 
+<<<<<<< Updated upstream
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+>>>>>>> Stashed changes
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/infographics/scripts/generate_infographic.py
   > File: `scientific-skills/infographics/scripts/generate_infographic.py`
@@ -444,6 +657,7 @@
   > File: `scientific-skills/infographics/scripts/generate_infographic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Capability Inflation - References Non-Existent 'Nano Banana Pro AI' Model
   > The SKILL.md and scripts repeatedly reference 'Nano Banana Pro AI' and 'Nano Banana Pro' as the image generation engine, but the actual model used in code is 'google/gemini-3-pro-image-preview'. This is a fabricated product name that does not correspond to any real AI model, which could mislead users about what technology is actually being used. The description also claims 'Gemini 3 Pro' for quality review but uses 'google/gemini-3.1-pro-preview' in code.
   > File: `scripts/generate_infographic_ai.py:155`
@@ -464,6 +678,8 @@
   > File: `scripts/generate_infographic_ai.py:390`
   > **Remediation:** Consider sanitizing or validating research results before writing to disk and before incorporating into generation prompts. Limit what fields from the API response are persisted.
 
+=======
+>>>>>>> Stashed changes
 ### latex-posters — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -474,10 +690,17 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Missing License and Compatibility Metadata
   > The SKILL.md manifest does not specify a license or compatibility field. While these are optional per the agent skills spec, their absence means users cannot determine the terms under which the skill can be used or which platforms it is compatible with.
   > File: `SKILL.md`
   > **Remediation:** Add license (e.g., MIT) and compatibility fields to the YAML frontmatter to improve transparency and discoverability.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/latex-posters/scripts/generate_schematic.py
@@ -494,6 +717,7 @@
   > File: `scientific-skills/latex-posters/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Passed via Environment Variable to Subprocess
   > In generate_schematic.py, the OPENROUTER_API_KEY is retrieved from the environment and explicitly re-injected into the subprocess environment via env=env before calling generate_schematic_ai.py. While the code comments note this avoids exposure in process listings, the key is still propagated through the environment to a child process. This is a standard and acceptable pattern, but the key is read from the environment and forwarded, creating a dependency on secure key management by the user. The static analyzer flagged this as an exfiltration chain because the key flows from environment → subprocess → external API calls.
   > File: `scripts/generate_schematic.py`
@@ -514,10 +738,13 @@
   > File: `scripts/generate_schematic_ai.py`
   > **Remediation:** The 2-iteration cap is appropriate. Consider adding cost estimation or a --dry-run flag. Document expected API call counts in the skill description.
 
+=======
+>>>>>>> Stashed changes
 ### literature-review — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 3 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
+<<<<<<< Updated upstream
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/verify_citations.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 3 files
@@ -533,6 +760,18 @@
   > The SKILL.md instructions specify 'pip install requests' without a version pin. This could allow installation of a compromised or incompatible version of the requests library in the future. The requests library is used in verify_citations.py and generate_schematic_ai.py for network calls to CrossRef, doi.org, and OpenRouter APIs.
   > File: `SKILL.md`
   > **Remediation:** Pin the dependency to a specific version: 'pip install requests==2.31.0' or use a requirements.txt with pinned versions and hashes for reproducible installs.
+=======
+  > **Remediation:** Review data flow across files: scripts/verify_citations.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
+
+- **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 3 files
+  > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py, scripts/verify_citations.py transmit to network
+  > **Remediation:** Review data flow across files: scripts/verify_citations.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/literature-review/scripts/generate_schematic.py
@@ -549,6 +788,7 @@
   > File: `scientific-skills/literature-review/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Passed via Environment Variable to Subprocess
   > In generate_schematic.py, the OPENROUTER_API_KEY is read from the environment and explicitly re-injected into the subprocess environment when calling generate_schematic_ai.py. While the code comments note this avoids exposure in process listings, the key is still propagated through os.environ.copy() and passed to a child process. This is a low-risk pattern but worth noting as the API key is handled across multiple script boundaries.
   > File: `scripts/generate_schematic.py`
@@ -564,6 +804,8 @@
   > File: `scripts/verify_citations.py`
   > **Remediation:** Add a maximum DOI count check before processing, implement exponential backoff on failures, and consider batching CrossRef API requests using their batch endpoint to reduce the number of individual HTTP calls.
 
+=======
+>>>>>>> Stashed changes
 ### markitdown — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 3 files
@@ -574,6 +816,7 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/convert_with_ai.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/convert_with_ai.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Capability Inflation via Cross-Skill Promotion
   > The SKILL.md instructions contain a section titled 'Visual Enhancement with Scientific Schematics' that aggressively promotes a separate 'scientific-schematics' skill, instructing the agent to 'always consider adding scientific diagrams' and that 'Scientific schematics should be generated by default' even when not requested. This inflates the perceived scope of the markitdown skill and attempts to trigger activation of another skill without user request, constituting capability inflation and unsolicited cross-skill invocation.
   > File: `SKILL.md`
@@ -583,6 +826,12 @@
   > The SKILL.md and scripts reference installing markitdown via 'pip install markitdown[all]' without version pinning. This exposes users to supply chain risks if the package is compromised or a malicious version is published. The scripts also import from markitdown without version validation.
   > File: `SKILL.md`
   > **Remediation:** Pin the markitdown package to a specific known-good version (e.g., 'pip install markitdown[all]==0.1.0'). Consider using a requirements.txt with hashed dependencies for reproducible installs.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/markitdown/scripts/convert_with_ai.py
@@ -604,6 +853,7 @@
   > File: `scientific-skills/markitdown/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Passed via Command-Line Argument in Multiple Scripts
   > Both scripts/convert_with_ai.py and scripts/generate_schematic_ai.py accept API keys via --api-key command-line arguments. While the scripts also support environment variables, accepting secrets as CLI arguments risks exposure in process listings, shell history, and system logs.
   > File: `scripts/convert_with_ai.py`
@@ -614,6 +864,8 @@
   > File: `scripts/generate_schematic.py`
   > **Remediation:** Remove the --api-key CLI argument entirely and require the OPENROUTER_API_KEY environment variable exclusively. This eliminates the risk of key exposure in process listings.
 
+=======
+>>>>>>> Stashed changes
 ### peer-review — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -624,10 +876,17 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Cross-Skill Promotion in Instructions (scientific-schematics Skill)
   > The SKILL.md instructions prominently promote the use of another skill ('scientific-schematics') and a branded product ('Nano Banana Pro') within the peer review workflow. The instructions state schematics 'should be generated by default' for new documents, which could cause the agent to invoke additional skills and make external API calls beyond what a user expects from a peer review skill.
   > File: `SKILL.md`
   > **Remediation:** Make schematic generation opt-in rather than default behavior. Clearly document that this skill will invoke external API calls and potentially incur costs. Remove the 'by default' language to avoid unexpected agent behavior.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/peer-review/scripts/generate_schematic.py
@@ -644,6 +903,7 @@
   > File: `scientific-skills/peer-review/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Passed via Environment Variable to Subprocess
   > In generate_schematic.py, the OpenRouter API key is retrieved from the environment and explicitly re-injected into the subprocess environment before calling generate_schematic_ai.py. While the code comments note this avoids exposure in process listings, the key is still propagated through os.environ.copy() and passed to a child process. This is a low-risk pattern but worth noting as the key is handled across two scripts and could be logged or exposed in verbose/debug output.
   > File: `scripts/generate_schematic.py`
@@ -664,6 +924,8 @@
   > File: `scripts/generate_schematic_ai.py`
   > **Remediation:** Document the expected API cost per invocation clearly. Consider adding a user confirmation step before making API calls, especially for iterative refinement. The current 2-iteration cap is a reasonable safeguard.
 
+=======
+>>>>>>> Stashed changes
 ### pptx-posters — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -674,6 +936,14 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+>>>>>>> Stashed changes
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/pptx-posters/scripts/generate_schematic.py
   > File: `scientific-skills/pptx-posters/scripts/generate_schematic.py`
@@ -689,6 +959,7 @@
   > File: `scientific-skills/pptx-posters/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Transmitted via Network Requests to External Service
   > The scripts read the OPENROUTER_API_KEY environment variable and transmit it as a Bearer token in HTTP Authorization headers to openrouter.ai. While this is the intended use of an API key, the key is sourced from the environment and sent over the network. The static analyzer flagged this as an environment variable exfiltration chain across two files (generate_schematic.py and generate_schematic_ai.py). In normal operation this is legitimate, but the pattern is worth noting: if the API key were replaced or the endpoint were tampered with, credentials could be exposed.
   > File: `scripts/generate_schematic_ai.py`
@@ -709,6 +980,8 @@
   > File: `scripts/generate_schematic_ai.py`
   > **Remediation:** Pin the requests library to a specific known-good version in a requirements.txt file (e.g., requests==2.31.0). Include a requirements.txt in the skill package and document the installation step.
 
+=======
+>>>>>>> Stashed changes
 ### research-grants — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -719,10 +992,17 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Mandatory Figure Generation Requirement May Inflate Skill Activation
   > The SKILL.md instruction body contains a section marked '⚠️ MANDATORY' that requires every grant proposal to include AI-generated figures using the 'scientific-schematics' skill, and references 'Nano Banana Pro' as if it is a known system component. This creates an over-broad activation pattern by mandating cross-skill invocation regardless of user intent, and references a branded product name ('Nano Banana Pro', 'Nano Banana 2') that may not be a recognized system component, potentially misleading users about available capabilities.
   > File: `SKILL.md`
   > **Remediation:** Change the mandatory figure requirement to a recommendation. Remove references to 'Nano Banana Pro' as a system component unless it is a verified, documented part of the deployment environment. Clarify that figure generation is optional and dependent on user preference and available tools.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/research-grants/scripts/generate_schematic.py
@@ -739,6 +1019,7 @@
   > File: `scientific-skills/research-grants/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Passed via Environment Variable to Subprocess
   > The generate_schematic.py script reads the OPENROUTER_API_KEY from the environment and passes it explicitly into a subprocess environment. While the code does attempt to avoid exposing the key in process listings by using env= rather than a command-line argument, the key is still read from the environment and propagated. This is a standard and acceptable pattern, but the key is also accepted via --api-key CLI flag which could expose it in process listings on shared systems.
   > File: `scripts/generate_schematic.py`
@@ -839,6 +1120,8 @@
   > File: `scientific-skills/research-lookup/scripts/research_lookup.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+=======
+>>>>>>> Stashed changes
 ### scholar-evaluation — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -849,10 +1132,17 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Cross-Skill Activation Promotion via Embedded Marketing
   > The SKILL.md instructions contain embedded promotional language for a companion skill ('scientific-schematics') and a branded product ('Nano Banana Pro'), instructing the agent to 'always consider adding scientific diagrams' and to generate schematics 'by default' for new documents. This inflates the activation surface of a separate skill beyond the stated purpose of scholarly evaluation, potentially causing unwanted cross-skill invocations.
   > File: `SKILL.md`
   > **Remediation:** Remove or make optional the cross-skill invocation instructions. The scholar-evaluation skill should focus solely on evaluation tasks. If schematic generation is desired, it should be an explicit user-initiated action, not a default behavior embedded in evaluation instructions.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/scholar-evaluation/scripts/generate_schematic.py
@@ -869,6 +1159,7 @@
   > File: `scientific-skills/scholar-evaluation/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Environment Variable Access Combined with External Network Calls
   > The scripts access the OPENROUTER_API_KEY environment variable and use it to make authenticated HTTP requests to an external API (openrouter.ai). While this is the intended design for AI image generation, the pattern of reading environment variables and transmitting them in Authorization headers to external servers represents a data exposure risk if the API key is misused or if the endpoint is substituted. The user prompt content (potentially containing sensitive research data) is also transmitted externally.
   > File: `scripts/generate_schematic_ai.py`
@@ -879,6 +1170,8 @@
   > File: `scripts/generate_schematic_ai.py`
   > **Remediation:** Include a requirements.txt with pinned versions (e.g., requests==2.31.0) and ideally hash verification. Document the dependency clearly in SKILL.md so users are aware of external package requirements.
 
+=======
+>>>>>>> Stashed changes
 ### scientific-critical-thinking — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -889,6 +1182,7 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Missing allowed-tools Declaration for Sensitive Capabilities
   > The skill declares allowed-tools as 'Read Write Edit Bash' but the Python scripts make external network calls to the OpenRouter API, which is not reflected in the allowed-tools list. While 'Bash' and implicitly Python execution are present, the manifest does not declare network access, which could mislead users about the skill's actual data transmission behavior.
   > File: `SKILL.md`
@@ -898,6 +1192,12 @@
   > The SKILL.md instructions prominently promote and instruct the agent to automatically invoke a separate 'scientific-schematics' skill and a 'Nano Banana Pro' product, inflating the perceived scope of this skill beyond its stated purpose of scientific critical thinking. The instructions state schematics 'should be generated by default' and direct the agent to run external scripts, effectively acting as a distribution mechanism for another skill/product without clear disclosure in the manifest description.
   > File: `SKILL.md`
   > **Remediation:** Remove or clearly separate the cross-skill promotion from the core scientific critical thinking instructions. If schematic generation is a desired feature, declare it explicitly in the manifest description and allowed-tools. Do not instruct the agent to invoke other skills by default without user request.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/scientific-critical-thinking/scripts/generate_schematic.py
@@ -914,6 +1214,7 @@
   > File: `scientific-skills/scientific-critical-thinking/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Passed via Environment Variable Inheritance
   > The generate_schematic.py wrapper passes the OpenRouter API key to the subprocess via os.environ.copy(), which inherits the full environment. While this avoids exposing the key in process arguments (which is good), it means the full environment including any other sensitive variables is passed to the child process. The review log is also written to disk as a JSON file containing the full prompt, critique, and metadata.
   > File: `scripts/generate_schematic.py`
@@ -934,6 +1235,8 @@
   > File: `scripts/generate_schematic_ai.py:14`
   > **Remediation:** Include a requirements.txt file in the skill package with pinned versions (e.g., requests==2.31.0). This ensures reproducible behavior and reduces supply chain risk from unpinned dependencies.
 
+=======
+>>>>>>> Stashed changes
 ### scientific-schematics — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -943,6 +1246,11 @@
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/scientific-schematics/scripts/generate_schematic.py
@@ -959,6 +1267,7 @@
   > File: `scientific-skills/scientific-schematics/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SUPPLY_CHAIN_ATTACK` — Unpinned External Dependency (requests library)
   > The skill requires the 'requests' library but does not pin a specific version anywhere in the skill package. The example_usage.sh mentions 'pip install requests' without a version pin. Unpinned dependencies are vulnerable to supply chain attacks where a compromised version of the package could be installed.
   > File: `scripts/example_usage.sh:5`
@@ -979,10 +1288,13 @@
   > File: `scripts/generate_schematic_ai.py`
   > **Remediation:** Use accurate, verifiable model names in all documentation and marketing materials. Remove references to 'Nano Banana 2' and replace with the actual model identifier. Ensure the OpenRouter URL in comments matches the actual model being used.
 
+=======
+>>>>>>> Stashed changes
 ### scientific-slides — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 4 files
   > Environment variable access with network calls in scripts/generate_slide_image_ai.py, scripts/generate_slide_image.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
+<<<<<<< Updated upstream
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_slide_image.py, scripts/generate_schematic_ai.py, scripts/generate_slide_image_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 4 files
@@ -993,6 +1305,18 @@
   > The skill description contains an extensive list of trigger keywords ('PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, scientific talk') designed to maximize activation across a wide range of user queries. While the skill does provide legitimate presentation functionality, the description is crafted to intercept nearly any presentation-related request.
   > File: `SKILL.md`
   > **Remediation:** Narrow the description to accurately reflect the skill's primary use case without exhaustive keyword enumeration.
+=======
+  > **Remediation:** Review data flow across files: scripts/generate_slide_image_ai.py, scripts/generate_schematic_ai.py, scripts/generate_schematic.py, scripts/generate_slide_image.py
+
+- **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 4 files
+  > Multi-file exfiltration chain detected: scripts/generate_slide_image_ai.py, scripts/generate_slide_image.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_slide_image_ai.py, scripts/generate_schematic_ai.py → scripts/generate_slide_image_ai.py, scripts/generate_schematic_ai.py transmit to network
+  > **Remediation:** Review data flow across files: scripts/generate_slide_image_ai.py, scripts/generate_schematic_ai.py, scripts/generate_schematic.py, scripts/generate_slide_image.py
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/scientific-slides/scripts/generate_schematic.py
@@ -1029,6 +1353,7 @@
   > File: `scientific-skills/scientific-slides/scripts/validate_presentation.py`
   > **Remediation:** Remove eval/exec or use safer alternatives
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Review Log Written to Disk Contains Full Prompts and API Responses
   > The generate_schematic_ai.py script writes a JSON review log to disk containing the full user prompt, all critique text from the AI reviewer, and iteration metadata. If the user's prompt contains sensitive research data or proprietary information, this is persisted to disk in plaintext without any access controls.
   > File: `scripts/generate_schematic_ai.py`
@@ -1049,10 +1374,13 @@
   > File: `scripts/generate_slide_image_ai.py:130`
   > **Remediation:** Implement a total budget cap (maximum number of API calls per session), add exponential backoff for retries, and document expected API costs per presentation.
 
+=======
+>>>>>>> Stashed changes
 ### scientific-writing — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 3 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
+<<<<<<< Updated upstream
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/generate_image.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 3 files
@@ -1068,6 +1396,18 @@
   > The SKILL.md uses strong mandatory language (MANDATORY, CRITICAL, ALWAYS, REQUIRED) to instruct the agent to generate figures even when not explicitly requested by the user. Phrases like 'Every scientific paper MUST include a graphical abstract' and 'When in Doubt, Generate a Figure' could cause the agent to autonomously generate many images and incur API costs without explicit user consent for each action.
   > File: `SKILL.md`
   > **Remediation:** Soften mandatory language to recommendations. Require explicit user confirmation before generating figures that incur API costs. Distinguish between user-requested and autonomously-initiated figure generation.
+=======
+  > **Remediation:** Review data flow across files: scripts/generate_image.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
+
+- **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 3 files
+  > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_image.py, scripts/generate_schematic_ai.py → scripts/generate_image.py, scripts/generate_schematic_ai.py transmit to network
+  > **Remediation:** Review data flow across files: scripts/generate_image.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/scientific-writing/scripts/generate_schematic.py
@@ -1084,6 +1424,7 @@
   > File: `scientific-skills/scientific-writing/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Transmitted via Environment Variable to External Service
   > The scripts read the OPENROUTER_API_KEY environment variable and transmit it to an external API endpoint (https://openrouter.ai/api/v1). While this is the intended behavior for an AI image generation service, the key is a sensitive credential. The generate_image.py script also searches parent directories for .env files containing the API key, which could expose credentials from unrelated projects if the skill is run from a sensitive directory.
   > File: `scripts/generate_image.py`
@@ -1099,6 +1440,8 @@
   > File: `scripts/generate_image.py`
   > **Remediation:** Add explicit disclosure that input images are transmitted to openrouter.ai. Warn users not to provide sensitive or proprietary images without understanding the data sharing implications.
 
+=======
+>>>>>>> Stashed changes
 ### treatment-plans — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -1109,10 +1452,17 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Mandatory Skill Cross-Invocation via Undisclosed Dependency
   > The SKILL.md instructions declare that every treatment plan MUST include at least 1 AI-generated figure using the 'scientific-schematics' skill, framed as mandatory ('⚠️ MANDATORY'). This forces invocation of a separate skill (scientific-schematics) without disclosing this dependency in the YAML manifest. The description claims the skill generates treatment plans but does not mention the mandatory dependency on an external skill. This inflates the apparent scope of the skill and silently chains to another skill's capabilities.
   > File: `SKILL.md`
   > **Remediation:** Declare the dependency on the scientific-schematics skill in the YAML manifest. Make the schematic generation optional rather than mandatory, and clearly disclose the cross-skill dependency in the description.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/treatment-plans/scripts/generate_schematic.py
@@ -1129,6 +1479,7 @@
   > File: `scientific-skills/treatment-plans/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Passed via Environment Variable to External AI Service
   > The generate_schematic.py and generate_schematic_ai.py scripts require an OPENROUTER_API_KEY environment variable and transmit it to the external OpenRouter API service. While the key is passed via environment (not command-line arguments, which is good practice), the scripts make outbound network calls to https://openrouter.ai/api/v1 using this credential. The skill's description does not disclose that it makes external API calls or requires an API key, creating an undisclosed credential usage pattern.
   > File: `scripts/generate_schematic.py`
@@ -1149,6 +1500,8 @@
   > File: `scripts/generate_schematic_ai.py`
   > **Remediation:** Pin the requests library version in a requirements.txt file. Document the specific model versions being used and implement version checking or fallback behavior if models change.
 
+=======
+>>>>>>> Stashed changes
 ### venue-templates — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
@@ -1159,6 +1512,7 @@
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
   > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_PROMPT_INJECTION` — Skill Instructs Agent to Automatically Invoke Another Skill (scientific-schematics)
   > The SKILL.md instructions direct the agent to automatically invoke the 'scientific-schematics' skill and run generate_schematic.py for new documents by default, without explicit user confirmation. This cross-skill invocation pattern means that activating the venue-templates skill can automatically trigger additional skill execution and external API calls (to openrouter.ai) that the user may not have explicitly requested. The instruction 'For new documents: Scientific schematics should be generated by default' is an autonomy-expanding directive.
   > File: `SKILL.md`
@@ -1168,6 +1522,12 @@
   > The skill description and SKILL.md contain an extensive list of high-profile venue names (Nature, Science, PLOS, IEEE, ACM, NeurIPS, ICML, CVPR, CHI, NSF, NIH, DOE, DARPA) that serve as keyword triggers to maximize activation. While the skill does provide legitimate templates, the description is unusually broad and keyword-dense, potentially inflating perceived capabilities and triggering the skill for a wider range of queries than necessary.
   > File: `SKILL.md`
   > **Remediation:** Narrow the description to accurately reflect the skill's actual bundled capabilities. Avoid listing every possible venue name in the description metadata; instead, describe the general capability.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/venue-templates/scripts/generate_schematic.py
@@ -1184,6 +1544,7 @@
   > File: `scientific-skills/venue-templates/scripts/generate_schematic_ai.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_UNAUTHORIZED_TOOL_USE` — Cross-File Tool Chain: generate_schematic.py Delegates to generate_schematic_ai.py via subprocess
   > The generate_schematic.py script uses subprocess.run() to execute generate_schematic_ai.py, passing the API key via environment variables. This cross-file delegation chain (flagged as BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN) means the outer script acts as a launcher that passes credentials to an inner script making external network calls. While the design intent is to avoid exposing the API key in process listings, the subprocess chain adds complexity and reduces auditability of what is actually executed.
   > File: `scripts/generate_schematic.py`
@@ -1210,12 +1571,21 @@
   > The skill's installation instructions use 'uv pip install esm' and 'uv pip install flash-attn --no-build-isolation' without version pinning. This exposes users to supply chain risks where a compromised or updated package version could introduce malicious code. The 'flash-attn' package in particular uses --no-build-isolation which bypasses standard build sandboxing.
   > File: `SKILL.md`
   > **Remediation:** Pin package versions explicitly (e.g., 'uv pip install esm==X.Y.Z'). Document the expected package versions and checksums. Avoid --no-build-isolation unless strictly necessary, and document the security implications when used.
+=======
+### esm — 🟠 HIGH
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/esm-c-api.md at line 337 contains potentially dangerous Python code.
   > File: `references/esm-c-api.md:337`
   > **Remediation:** Review the code block for security implications.
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_COMMAND_INJECTION` — Use of eval/exec in Python Code Blocks
   > The static analyzer flagged a potential eval/exec usage in the Python code blocks embedded in the reference markdown files. Reviewing the actual code blocks, the references use standard Python constructs (e.g., model.forward, model.encode, etc.) and do not contain direct eval/exec calls. However, the skill instructs the agent to load and execute code patterns from reference files, and some patterns like dynamic model loading and arbitrary code execution via asyncio.run() with user-controlled inputs could be misused if user-supplied sequences or configurations are passed without validation.
   > File: `references/esm3-api.md`
@@ -1252,6 +1622,14 @@
   > The static pre-scan flagged MDBLOCK_PYTHON_EVAL_EXEC findings in the markdown files. After reviewing all provided code blocks, the eval/exec patterns appear to be within legitimate geospatial code examples (e.g., subprocess.run calls in SAGA GIS integration). The subprocess.run calls in references/gis-software.md pass command lists constructed from function parameters, which could be a command injection risk if user-supplied input were passed to these functions without validation.
   > File: `references/gis-software.md`
   > **Remediation:** Add input validation and sanitization to all functions that construct shell commands from parameters. Use shlex.quote() for any user-supplied path arguments. Add documentation warnings that these functions should not be called with untrusted input.
+=======
+### geomaster — 🟠 HIGH
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `MDBLOCK_PYTHON_SUBPROCESS` — Python code block executes shell commands
   > Code block in references/gis-software.md at line 290 contains potentially dangerous Python code.
@@ -1270,6 +1648,7 @@
 
 ### modal — 🟠 HIGH
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Credential Handling Guidance Encourages Reading .env Files
   > The SKILL.md instructions direct the agent to check for MODAL_TOKEN_ID and MODAL_TOKEN_SECRET in the environment and local .env files before prompting the user. While this is standard practice for credential management, it instructs the agent to proactively scan environment variables and local .env files for secrets. If the agent is operating in a context where it has broad file access, this could inadvertently expose credentials beyond the intended Modal tokens.
   > File: `SKILL.md`
@@ -1279,17 +1658,26 @@
   > The skill description contains an extensive list of trigger phrases designed to maximize activation across a wide range of scenarios: 'Use this skill whenever the user mentions Modal, serverless GPU compute, deploying ML models to the cloud, serving inference endpoints, running batch processing in the cloud, or needs to scale Python workloads beyond their local machine. Also use when the user wants to run code on H100s, A100s, or other cloud GPUs, or needs to create a web API for a model.' This is broader than necessary for a focused Modal-specific skill and could cause the skill to activate in contexts where it may not be the most appropriate tool.
   > File: `SKILL.md`
   > **Remediation:** Narrow the activation description to focus specifically on Modal platform usage rather than general GPU compute or cloud deployment scenarios that might be better served by other tools.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/functions.md at line 82 contains potentially dangerous Python code.
   > File: `references/functions.md:82`
   > **Remediation:** Review the code block for security implications.
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_COMMAND_INJECTION` — Python eval/exec Usage in Code Examples
   > The static analyzer flagged a potential eval/exec usage in a Python code block within the skill's documentation. After reviewing all referenced files, the flagged pattern appears to be within illustrative code examples (e.g., subprocess.run, shell command execution patterns in references/gpu.md and references/web-endpoints.md) rather than a direct eval/exec call on untrusted input. The skill itself contains no executable scripts, only documentation. However, the skill instructs the agent to generate and run Modal Python code that may include subprocess.run with user-controlled arguments, which could lead to command injection if the agent constructs shell commands from unsanitized user input.
   > File: `references/gpu.md`
   > **Remediation:** Ensure that when the agent generates Modal code involving subprocess.run or similar constructs, it validates and sanitizes any user-provided arguments before incorporating them into shell commands. Add guidance in SKILL.md to warn against passing raw user input into subprocess calls.
 
+=======
+>>>>>>> Stashed changes
 - **🟡 MEDIUM** `MDBLOCK_PYTHON_SUBPROCESS` — Python code block executes shell commands
   > Code block in references/gpu.md at line 159 contains potentially dangerous Python code.
   > File: `references/gpu.md:159`
@@ -1312,6 +1700,7 @@
 
 ### pathml — 🟠 HIGH
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Multiple Missing Referenced Files
   > The skill references numerous files that do not exist in the package: assets/graphs.md, pathml.py, assets/preprocessing.md, templates/machine_learning.md, templates/data_management.md, templates/preprocessing.md, templates/image_loading.md, assets/multiparametric.md, templates/graphs.md, templates/multiparametric.md, assets/data_management.md, assets/machine_learning.md, assets/image_loading.md. The presence of a referenced 'pathml.py' script that is missing is notable. If the agent attempts to load these missing files from external sources or if a malicious actor places files at these paths, unexpected behavior could result.
   > File: `SKILL.md`
@@ -1321,17 +1710,26 @@
   > The SKILL.md installation instructions use 'uv pip install pathml' and 'uv pip install pathml[all]' without version pinning. This means the skill will always install the latest available version of pathml and its dependencies, which could introduce breaking changes or supply chain risks if the package is compromised or updated with malicious code.
   > File: `SKILL.md`
   > **Remediation:** Pin the pathml package to a specific known-good version (e.g., 'uv pip install pathml==X.Y.Z') to ensure reproducibility and reduce supply chain risk. Consider also pinning critical dependencies like torch, onnxruntime, and deepcell.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/data_management.md at line 441 contains potentially dangerous Python code.
   > File: `references/data_management.md:441`
   > **Remediation:** Review the code block for security implications.
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_COMMAND_INJECTION` — Python eval/exec Usage in Code Examples
   > Static analysis flagged multiple instances of eval/exec patterns in the markdown reference files. Upon review, these appear within legitimate educational code examples demonstrating PyTorch model training, ONNX export, and data processing workflows. The code blocks are documentation examples, not executable scripts bundled with the skill. However, if an agent were to execute these code blocks verbatim with user-supplied paths or parameters, the patterns could introduce risk depending on how user input is interpolated.
   > File: `references/machine_learning.md`
   > **Remediation:** The code examples are documentation-only and appear benign in context. No immediate remediation required. If the skill is extended to execute code blocks dynamically, ensure user-supplied inputs are validated and sanitized before use in any exec/eval context.
 
+=======
+>>>>>>> Stashed changes
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/machine_learning.md at line 228 contains potentially dangerous Python code.
   > File: `references/machine_learning.md:228`
@@ -1347,6 +1745,7 @@
   > File: `references/machine_learning.md:540`
   > **Remediation:** Review the code block for security implications.
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Remote API Call in SegmentMIFRemote Documentation
   > The multiparametric reference documents a SegmentMIFRemote transform that sends image data to an external DeepCell cloud API (https://deepcell.org/api/predict). While this is a documented, legitimate third-party service for cell segmentation, users should be aware that slide image data (potentially containing patient-identifiable information) would be transmitted to an external server. This is presented as an optional alternative to local GPU inference.
   > File: `references/multiparametric.md`
@@ -1368,6 +1767,14 @@
   > The static pre-scan flagged a Python code block containing eval/exec patterns. After manual review of all referenced files, no actual use of eval() or exec() with user-controlled input was found in the skill's reference documentation. The flag likely refers to illustrative code examples (e.g., map_elements with lambdas, or query plan inspection). No exploitable injection vector was identified, but the presence of such patterns in instructional code warrants documentation.
   > File: `references/best_practices.md`
   > **Remediation:** No immediate action required. Ensure that any future code examples involving eval/exec are clearly marked as anti-patterns and not as recommended usage patterns.
+=======
+### polars — 🟠 HIGH
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/operations.md at line 531 contains potentially dangerous Python code.
@@ -1376,6 +1783,7 @@
 
 ### pytorch-lightning — 🟠 HIGH
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Missing allowed-tools and compatibility Metadata
   > The SKILL.md manifest does not specify the 'allowed-tools' or 'compatibility' fields. While these are optional per the agent skills specification, their absence means there are no declared restrictions on which agent tools this skill may invoke. The skill executes Python scripts that could use GPU/CPU resources extensively during training runs.
   > File: `SKILL.md`
@@ -1385,6 +1793,12 @@
   > The static pre-scan flagged a potential eval/exec usage within Python code blocks. After thorough review of all script files (template_lightning_module.py, template_datamodule.py, quick_trainer_setup.py) and all referenced markdown documentation files, no actual eval(), exec(), or os.system() calls with user-controlled input were found. The flag appears to be a false positive likely triggered by code examples within markdown documentation blocks (e.g., references/best_practices.md, references/callbacks.md) that discuss PyTorch/Lightning patterns. No exploitable command injection vector was identified.
   > File: `references/best_practices.md`
   > **Remediation:** No immediate action required. If documentation examples include eval/exec for illustrative purposes, add clear warnings that these patterns should not be used with untrusted input in production code.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/lightning_module.md at line 444 contains potentially dangerous Python code.
@@ -1393,6 +1807,7 @@
 
 ### qutip — 🟠 HIGH
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Missing allowed-tools and compatibility Metadata
   > The skill manifest does not specify `allowed-tools` or `compatibility` fields. While these are optional per the agent skills specification, their absence means there are no declared restrictions on what tools the agent may use when executing this skill. The skill instructs users to run pip install commands and execute Python code, which implies Bash and Python tool usage, but this is not declared.
   > File: `SKILL.md`
@@ -1407,6 +1822,12 @@
   > The static analyzer flagged a Python code block using eval/exec. Reviewing the referenced files, the only potentially relevant pattern is the use of dynamic function calls and lambda expressions in spectral density functions (e.g., `lambda w: 0.1 * w if w > 0 else 0`). These are standard Python patterns in the context of QuTiP's Bloch-Redfield solver and do not represent a direct eval/exec injection risk. No actual `eval()` or `exec()` calls were found in the reviewed content. This is a low-severity informational finding based on the static analyzer flag that warrants confirmation of the full file set.
   > File: `references/advanced.md`
   > **Remediation:** Verify no actual eval() or exec() calls exist in any unretrieved files (e.g., qutip.py, matplotlib.py, templates/, assets/ files that were not found). If eval/exec is present in missing files, replace with explicit function definitions and validate all inputs before use.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/visualization.md at line 197 contains potentially dangerous Python code.
@@ -1415,6 +1836,7 @@
 
 ### sympy — 🟠 HIGH
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Missing allowed-tools Manifest Field
   > The SKILL.md manifest does not specify the `allowed-tools` field. While this is optional per the agent skills specification, the skill instructs the agent to execute Python code, generate files (LaTeX documents, C code files), and potentially run compilation steps (autowrap, ufuncify). Declaring allowed tools would improve transparency about the skill's intended capabilities and help agents enforce appropriate boundaries.
   > File: `SKILL.md`
@@ -1434,6 +1856,12 @@
   > Multiple code examples in the reference files demonstrate writing files to the filesystem (output.tex, output.txt, output.py, document.tex, *.c files) without any path validation or scope limitation. While these are illustrative examples, an agent following these patterns could write files to arbitrary locations if user-controlled paths are used.
   > File: `references/code-generation-printing.md`
   > **Remediation:** Add guidance that file paths should be validated and restricted to safe directories. Avoid using user-controlled input directly in file paths. Consider using tempfile or restricting output to a designated working directory.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/code-generation-printing.md at line 204 contains potentially dangerous Python code.
@@ -1442,6 +1870,7 @@
 
 ### torch-geometric — 🟠 HIGH
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Over-Broad Skill Activation Triggers in Description
   > The skill description contains an extensive list of trigger keywords and phrases designed to maximize activation across a very wide range of topics. Phrases like 'Even if the user just says graph learning or geometric deep learning, use this skill' explicitly instruct the agent to activate on vague, broad queries. While this is a legitimate GNN reference skill, the activation language is unusually aggressive and could cause the skill to intercept queries that might be better handled by other tools or the base model.
   > File: `SKILL.md`
@@ -1456,12 +1885,19 @@
   > The SKILL.md references numerous files (assets/link_prediction.md, templates/heterogeneous.md, torch_geometric.py, torch.py, and many others) that were not found in the skill package. While the critical references (references/*.md) are present, missing files could cause the agent to fail silently or attempt to locate files outside the skill directory. The references to torch_geometric.py and torch.py are particularly notable as these could shadow actual Python library modules if they existed.
   > File: `SKILL.md`
   > **Remediation:** Remove references to non-existent files or add the missing files to the skill package. Rename any files that could shadow Python standard library or popular package names (torch.py, torch_geometric.py).
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in SKILL.md at line 196 contains potentially dangerous Python code.
   > File: `SKILL.md:196`
   > **Remediation:** Review the code block for security implications.
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_COMMAND_INJECTION` — eval/exec Usage in Illustrative Code Blocks (Static Scanner Alert)
   > The static pre-scan flagged multiple Python code blocks containing eval/exec patterns. Upon review, these appear in educational/reference markdown files (references/custom_datasets.md, references/scaling.md, references/message_passing.md) as legitimate PyTorch/PyG API usage examples (e.g., torch.no_grad(), model.eval(), etc.). The 'eval' references are PyTorch's model.eval() method, not Python's built-in eval() function. No actual dangerous eval/exec injection patterns were found. This is a false positive from the static scanner, but noted for completeness.
   > File: `references/custom_datasets.md`
@@ -1472,6 +1908,8 @@
   > File: `references/custom_datasets.md`
   > **Remediation:** Add a comment in the example noting that URLs should be validated and trusted before use. Consider adding a note about verifying dataset sources.
 
+=======
+>>>>>>> Stashed changes
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/link_prediction.md at line 94 contains potentially dangerous Python code.
   > File: `references/link_prediction.md:94`
@@ -1484,6 +1922,7 @@
 
 ### torchdrug — 🟠 HIGH
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SKILL_DISCOVERY_ABUSE` — Missing allowed-tools Metadata
   > The skill does not specify the 'allowed-tools' field in its YAML manifest. While this field is optional per the agent skills specification, its absence means there are no declared restrictions on which agent tools (Read, Write, Bash, Python, etc.) can be invoked when this skill is active. Given the skill's legitimate purpose of guiding TorchDrug usage, this is a minor informational finding.
   > File: `SKILL.md`
@@ -1493,6 +1932,12 @@
   > The static analyzer flagged a potential eval/exec usage in a Python code block within the referenced markdown files. After reviewing all available content, the code examples in the reference files (core_concepts.md, molecular_property_prediction.md, etc.) use standard PyTorch/TorchDrug APIs and do not contain actual eval() or exec() calls with user-controlled input. The flagged pattern appears to be a false positive from the static scanner. No actual command injection risk was identified in the reviewed content.
   > File: `references/core_concepts.md`
   > **Remediation:** No action required. The static scanner flag appears to be a false positive. Continue to avoid eval/exec with user-controlled input in any future code examples added to this skill.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/core_concepts.md at line 345 contains potentially dangerous Python code.
@@ -1501,6 +1946,7 @@
 
 ### transformers — 🟠 HIGH
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Hugging Face Token Exposure Risk in Instructions
   > The SKILL.md instructions include an example showing how to set a Hugging Face token as an environment variable with a placeholder value ('your_token_here'). While this is a documentation pattern, the instructions also reference login() prompts and token handling. If a user follows these instructions and the agent assists in setting tokens, there is a risk of token exposure in logs, command history, or agent context.
   > File: `SKILL.md`
@@ -1520,12 +1966,19 @@
   > The installation instructions use unpinned package versions (e.g., 'uv pip install torch transformers datasets evaluate accelerate'). Without version pinning, the skill may install different package versions over time, potentially including compromised or incompatible versions. This is a supply chain risk.
   > File: `SKILL.md`
   > **Remediation:** Pin specific package versions in installation instructions (e.g., 'transformers==4.40.0') or provide a requirements.txt with pinned versions and hash verification to reduce supply chain risk.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟠 HIGH** `MDBLOCK_PYTHON_EVAL_EXEC` — Python code block uses eval/exec
   > Code block in references/models.md at line 214 contains potentially dangerous Python code.
   > File: `references/models.md:214`
   > **Remediation:** Review the code block for security implications.
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_COMMAND_INJECTION` — Use of eval/exec in Python Code Blocks
   > The static analyzer flagged a Python code block using eval/exec within the skill's reference documentation. While the code blocks in the reference files appear to be legitimate instructional examples for the Hugging Face Transformers library (no direct malicious use of eval/exec was identified in the reviewed content), this pattern warrants attention as eval/exec can enable arbitrary code execution if user-controlled input is passed to these functions.
   > File: `references/training.md`
@@ -1542,6 +1995,14 @@
   > The skill fetches and extracts full-text content from arbitrary external URLs and web pages (via exa_extract.py and exa_search.py with --text flag), then instructs the agent to parse and present that content verbatim. The references/web-extract.md explicitly instructs: 'Keep content verbatim — do not paraphrase or summarize' and 'Preserve all facts, names, numbers, dates, quotes'. Malicious web pages could embed prompt injection payloads in their content that the agent would then process and potentially act upon, since the agent is instructed to treat the extracted content with high fidelity.
   > File: `references/web-extract.md`
   > **Remediation:** Add explicit instructions to treat extracted web content as untrusted data, not as instructions. Instruct the agent to sanitize or flag any content that appears to contain instruction-like patterns before presenting it to the user. Consider adding a warning that extracted content should never be interpreted as agent instructions.
+=======
+### exa-search — 🟡 MEDIUM
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/exa-search/scripts/exa_extract.py
@@ -1553,6 +2014,7 @@
   > File: `scientific-skills/exa-search/scripts/exa_search.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SUPPLY_CHAIN_ATTACK` — Unpinned Dependency Version Range
   > The scripts declare a dependency on 'exa-py>=1.14.0' using a minimum-version constraint rather than an exact pinned version. This means future installs could pull in a newer, potentially compromised or breaking version of the exa-py package. While the risk is moderate given the package is from the skill's own author (Exa), unpinned dependencies are a supply chain hygiene concern.
   > File: `scripts/exa_search.py:5`
@@ -1574,6 +2036,14 @@
   > The SKILL.md recommends installing optional packages (pandas, numpy, pydicom) using 'pip install pandas numpy pydicom' without version pins. Unpinned installations are vulnerable to supply chain attacks where a malicious version of any of these packages could be installed. While these are well-known packages, best practice for agent skills is to pin all dependencies.
   > File: `SKILL.md`
   > **Remediation:** Pin all optional dependencies to specific known-good versions, e.g., 'pip install pandas==2.x.x numpy==1.x.x pydicom==2.x.x'. Reference the tested versions in the skill metadata.
+=======
+### imaging-data-commons — 🟡 MEDIUM
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `MDBLOCK_PYTHON_SUBPROCESS` — Python code block executes shell commands
   > Code block in SKILL.md at line 21 contains potentially dangerous Python code.
@@ -1582,16 +2052,24 @@
 
 ### labarchive-integration — 🟡 MEDIUM
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_SUPPLY_CHAIN_ATTACK` — Unpinned External Dependency Installed via Git Clone
   > The SKILL.md instructions direct users to install the `labarchives-py` package directly from a GitHub repository without any version pinning, commit hash, or integrity verification. This exposes users to supply chain attacks if the repository is compromised or if the package is updated with malicious code. The same unpinned GitHub install URL appears in error messages within the scripts.
   > File: `SKILL.md`
   > **Remediation:** Pin to a specific commit hash or tag: `git clone https://github.com/mcmero/labarchives-py && cd labarchives-py && git checkout <specific-commit-hash>`. Alternatively, publish the package to PyPI with a pinned version and use `pip install labarchives-py==<version>`. Verify package integrity with checksums.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `MDBLOCK_PYTHON_HTTP_POST` — Python code block sends HTTP POST request
   > Code block in references/api_reference.md at line 217 contains potentially dangerous Python code.
   > File: `references/api_reference.md:217`
   > **Remediation:** Review the code block for security implications.
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — SSL Verification Disabled in Reference Documentation
   > The authentication guide (references/authentication_guide.md) includes a code example that disables SSL certificate verification with `verify=False`. While labeled as 'use only for testing', this pattern is commonly copied into production code and could expose users to man-in-the-middle attacks when communicating with the LabArchives API, potentially allowing credential interception.
   > File: `references/authentication_guide.md`
@@ -1602,6 +2080,8 @@
   > File: `references/authentication_guide.md`
   > **Remediation:** Use POST requests with credentials in the request body, or use HTTP Authorization headers. If the LabArchives API requires GET with query params, document the logging risk and recommend log sanitization. Avoid logging full URLs that contain credentials.
 
+=======
+>>>>>>> Stashed changes
 - **🟡 MEDIUM** `MDBLOCK_PYTHON_HTTP_POST` — Python code block sends HTTP POST request
   > Code block in references/integrations.md at line 93 contains potentially dangerous Python code.
   > File: `references/integrations.md:93`
@@ -1612,6 +2092,7 @@
   > File: `references/integrations.md:309`
   > **Remediation:** Review the code block for security implications.
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Access Credentials Included in Multipart Upload Request Body
   > In entry_operations.py and the API reference, the access_key_id and access_password are included in the multipart form data body of file upload requests. While better than URL parameters, these credentials are still transmitted in plaintext form fields and may be logged by intermediate proxies or the server.
   > File: `scripts/entry_operations.py`
@@ -1638,6 +2119,14 @@
   > The SKILL.md YAML frontmatter does not specify the 'compatibility' field. This field helps users understand which agent environments the skill is compatible with. Its absence reduces transparency about the skill's intended deployment context.
   > File: `SKILL.md`
   > **Remediation:** Add a 'compatibility' field to the YAML frontmatter specifying which agent environments this skill supports (e.g., 'Works with Claude.ai, Claude Code, API').
+=======
+### open-notebook — 🟡 MEDIUM
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `MDBLOCK_PYTHON_HTTP_POST` — Python code block sends HTTP POST request
   > Code block in SKILL.md at line 61 contains potentially dangerous Python code.
@@ -1679,11 +2168,14 @@
   > File: `SKILL.md:194`
   > **Remediation:** Review the code block for security implications.
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_COMMAND_INJECTION` — Static Analyzer Flag: eval/exec in Python Code Block
   > The static pre-scan flagged a MDBLOCK_PYTHON_EVAL_EXEC finding, indicating a Python code block uses eval or exec. After reviewing all provided Python scripts and SKILL.md code blocks, no actual use of eval() or exec() was found in the provided content. This may be a false positive from the static analyzer, or it may refer to content in referenced files not fully provided (e.g., references/configuration.md, references/architecture.md, references/examples.md). The finding is noted for completeness but could not be confirmed from the provided content.
   > File: `references/configuration.md`
   > **Remediation:** Review all Python code blocks across all skill files (including unreferenced files like references/examples.md) for any use of eval() or exec() with user-controlled input. If found, replace with safe alternatives.
 
+=======
+>>>>>>> Stashed changes
 - **🟡 MEDIUM** `MDBLOCK_PYTHON_HTTP_POST` — Python code block sends HTTP POST request
   > Code block in references/configuration.md at line 116 contains potentially dangerous Python code.
   > File: `references/configuration.md:116`
@@ -1721,6 +2213,7 @@
 
 ### phylogenetics — 🟡 MEDIUM
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Missing License and Compatibility Metadata
   > The skill manifest does not specify a license or compatibility field. While not a direct security threat, missing provenance information reduces transparency and auditability of the skill package.
   > File: `SKILL.md`
@@ -1740,6 +2233,12 @@
   > The skill instructs users to install dependencies without version pinning. This exposes the environment to supply chain attacks where a compromised or malicious package version could be installed.
   > File: `SKILL.md:18`
   > **Remediation:** Pin all dependencies to specific versions (e.g., 'pip install ete3==3.1.3') and use checksums or lock files where possible. Document the expected versions in the skill manifest.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `MDBLOCK_PYTHON_SUBPROCESS` — Python code block executes shell commands
   > Code block in SKILL.md at line 67 contains potentially dangerous Python code.
@@ -1761,6 +2260,7 @@
   > File: `SKILL.md:198`
   > **Remediation:** Review the code block for security implications.
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_RESOURCE_ABUSE` — Unbounded Compute Resource Usage Without Limits
   > The pipeline runs computationally intensive tools (MAFFT, IQ-TREE 2 with 1000 bootstrap replicates) without any timeout, resource limits, or user confirmation for large datasets. For very large inputs, this could exhaust CPU and memory resources for extended periods.
   > File: `scripts/phylogenetic_analysis.py:97`
@@ -1792,6 +2292,14 @@
   > The skill description is extremely broad, covering protocol discovery, creation, updating, publishing, step management, materials, discussions, workspaces, file management, experiment tracking, and integration projects. While this matches the actual documented functionality, the breadth of the description could cause the skill to be activated in a wide range of scenarios, some of which may not require full API access. The description also lacks specificity about what user data or credentials are required, potentially leading users to provide sensitive tokens without understanding the scope.
   > File: `SKILL.md`
   > **Remediation:** Narrow the description to specific use cases. Consider splitting into multiple focused skills (e.g., read-only protocol search vs. write operations). Clearly document what credentials are required and their scope.
+=======
+### protocolsio-integration — 🟡 MEDIUM
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `MDBLOCK_PYTHON_HTTP_POST` — Python code block sends HTTP POST request
   > Code block in SKILL.md at line 283 contains potentially dangerous Python code.
@@ -1805,6 +2313,7 @@
 
 ### pymatgen — 🟡 MEDIUM
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — Missing allowed-tools Declaration
   > The skill manifest does not declare an 'allowed-tools' field. The scripts use Python execution, file I/O (reading structure files, writing output files), and network access (Materials Project API). Without an explicit allowed-tools declaration, the agent has no manifest-level constraint on what tools it may use. This is informational per the skill spec (allowed-tools is optional), but worth noting given the network access involved.
   > File: `SKILL.md`
@@ -1814,12 +2323,19 @@
   > The SKILL.md installation instructions use unpinned package versions (e.g., 'uv pip install pymatgen', 'uv pip install mp-api'). Without version pinning, the skill may install any available version of these packages, including potentially compromised future versions. The skill mentions 'pymatgen >= 2023.x' as a requirement but does not enforce this in installation commands. This is a supply chain risk, though low severity for a well-known scientific library.
   > File: `SKILL.md`
   > **Remediation:** Pin specific versions in installation instructions, e.g., 'uv pip install pymatgen==2024.6.10 mp-api==0.41.2'. Consider providing a requirements.txt or pyproject.toml with pinned dependencies for reproducibility and supply chain security.
+=======
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 - **🟡 MEDIUM** `BEHAVIOR_ENV_VAR_HARVESTING` — Environment variable harvesting detected
   > Script iterates through environment variables in scientific-skills/pymatgen/scripts/phase_diagram_generator.py
   > File: `scientific-skills/pymatgen/scripts/phase_diagram_generator.py`
   > **Remediation:** Remove environment variable collection unless explicitly required and documented
 
+<<<<<<< Updated upstream
 - **🔵 LOW** `LLM_DATA_EXFILTRATION` — API Key Accessed from Environment Variable and Passed to External Service
   > The phase_diagram_generator.py script reads the MP_API_KEY environment variable and passes it directly to MPRester for authentication with the Materials Project API. While this is a legitimate and documented workflow for the Materials Project API, the static analyzer flagged this as a potential env var exfiltration chain because the key is read from the environment and then used in network calls. In this context, the behavior is expected and benign — the API key is used solely to authenticate with the official Materials Project service (materialsproject.org), not exfiltrated to a third-party server. No hardcoded secrets are present. The risk is LOW because the key is properly sourced from an environment variable (not hardcoded), and the destination is the legitimate Materials Project API.
   > File: `scripts/phase_diagram_generator.py:44`
@@ -3658,9 +4174,701 @@
   > The skill instructs users to install packages (zarr, s3fs, gcsfs) without version pinning. Unpinned installations are vulnerable to supply chain attacks where a malicious version of a package could be installed. This is especially concerning for cloud storage packages (s3fs, gcsfs) that handle credentials and sensitive data.
   > File: `SKILL.md`
   > **Remediation:** Pin package versions explicitly (e.g., 'uv pip install zarr==2.18.0 s3fs==2024.2.0 gcsfs==2024.2.0'). Use a lockfile or requirements.txt with hashes for reproducible, secure installations.
+=======
+### adaptyv — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### aeon — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### anndata — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### arboreto — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### astropy — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### benchling-integration — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### bgpt-paper-search — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### biopython — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### bioservices — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### cellxgene-census — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### cirq — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### cobrapy — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### consciousness-council — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### dask — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### database-lookup — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### datamol — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### deepchem — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### deeptools — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### depmap — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### dhdna-profiler — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### diffdock — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### dnanexus-integration — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### docx — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### etetoolkit — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### exploratory-data-analysis — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### flowio — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### fluidsim — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### generate-image — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### geniml — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### geopandas — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### get-available-resources — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### gget — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### ginkgo-cloud-lab — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+>>>>>>> Stashed changes
 
 ### glycoengineering — ⚪ INFO
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+<<<<<<< Updated upstream
   > The LLM analyzer encountered an error and could not complete semantic analysis: Empty response from LLM
+=======
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### gtars — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### histolab — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### hugging-science — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### hypogenic — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### iso-13485-certification — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### lamindb — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### latchbio-integration — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### markdown-mermaid-writing — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### market-research-reports — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### matchms — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### matlab — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### matplotlib — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### medchem — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### molecular-dynamics — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### molfeat — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### networkx — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### neurokit2 — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### neuropixels-analysis — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### omero-integration — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### opentrons-integration — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### optimize-for-gpu — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### paper-lookup — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### paperzilla — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### parallel-web — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pdf — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pennylane — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### polars-bio — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pptx — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### primekg — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pufferlib — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pydeseq2 — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pydicom — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pyhealth — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pylabrobot — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pymc — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pymoo — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pyopenms — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pysam — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pytdc — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### pyzotero — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### qiskit — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### rdkit — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### rowan — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### scanpy — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### scientific-brainstorming — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### scientific-visualization — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### scikit-bio — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### scikit-learn — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### scikit-survival — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### scvelo — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### scvi-tools — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### seaborn — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### shap — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### simpy — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### stable-baselines3 — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### statistical-analysis — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### statsmodels — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### tiledbvcf — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### timesfm-forecasting — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### umap-learn — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### usfiscaldata — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### vaex — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### what-if-oracle — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### xlsx — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+  > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
+
+### zarr-python — ⚪ INFO
+
+- **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
+  > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+>>>>>>> Stashed changes
   > **Remediation:** Check your LLM provider configuration (API key, model name, network connectivity). The scan completed with static analysis only — LLM-based threat detection was not performed.
