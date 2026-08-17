@@ -1,6 +1,6 @@
 # Security Scan Report
 
-**Generated:** 2026-08-10 10:19 UTC  
+**Generated:** 2026-08-17 09:45 UTC  
 **Skills scanned:** 138  
 **Total findings:** 505  
 **Critical:** 68 | **High:** 18 | **Safe skills:** 107/138
@@ -9,32 +9,32 @@
 
 | Skill | Severity | Findings | Safe | Duration |
 |-------|----------|----------|------|----------|
-| autoskill | 🔴 CRITICAL | 9 | ❌ | 5.2s |
-| citation-management | 🔴 CRITICAL | 10 | ❌ | 1.5s |
-| clinical-decision-support | 🔴 CRITICAL | 6 | ❌ | 7.6s |
-| clinical-reports | 🔴 CRITICAL | 6 | ❌ | 3.6s |
-| hypothesis-generation | 🔴 CRITICAL | 6 | ❌ | 0.4s |
-| infographics | 🔴 CRITICAL | 6 | ❌ | 0.5s |
-| latex-posters | 🔴 CRITICAL | 6 | ❌ | 0.4s |
-| literature-review | 🔴 CRITICAL | 6 | ❌ | 2.5s |
-| markitdown | 🔴 CRITICAL | 7 | ❌ | 2.1s |
-| peer-review | 🔴 CRITICAL | 6 | ❌ | 0.4s |
-| pptx-posters | 🔴 CRITICAL | 6 | ❌ | 0.4s |
-| research-grants | 🔴 CRITICAL | 6 | ❌ | 0.4s |
-| research-lookup | 🔴 CRITICAL | 12 | ❌ | 4.8s |
-| scholar-evaluation | 🔴 CRITICAL | 6 | ❌ | 1.4s |
-| scientific-critical-thinking | 🔴 CRITICAL | 6 | ❌ | 0.4s |
-| scientific-schematics | 🔴 CRITICAL | 6 | ❌ | 0.4s |
-| scientific-slides | 🔴 CRITICAL | 10 | ❌ | 2.6s |
-| scientific-writing | 🔴 CRITICAL | 6 | ❌ | 1.4s |
-| treatment-plans | 🔴 CRITICAL | 6 | ❌ | 4.1s |
-| venue-templates | 🔴 CRITICAL | 6 | ❌ | 2.7s |
+| autoskill | 🔴 CRITICAL | 9 | ❌ | 6.9s |
+| citation-management | 🔴 CRITICAL | 10 | ❌ | 2.1s |
+| clinical-decision-support | 🔴 CRITICAL | 6 | ❌ | 10.0s |
+| clinical-reports | 🔴 CRITICAL | 6 | ❌ | 4.8s |
+| hypothesis-generation | 🔴 CRITICAL | 6 | ❌ | 0.6s |
+| infographics | 🔴 CRITICAL | 6 | ❌ | 0.7s |
+| latex-posters | 🔴 CRITICAL | 6 | ❌ | 0.6s |
+| literature-review | 🔴 CRITICAL | 6 | ❌ | 3.3s |
+| markitdown | 🔴 CRITICAL | 7 | ❌ | 2.9s |
+| peer-review | 🔴 CRITICAL | 6 | ❌ | 0.6s |
+| pptx-posters | 🔴 CRITICAL | 6 | ❌ | 0.6s |
+| research-grants | 🔴 CRITICAL | 6 | ❌ | 0.6s |
+| research-lookup | 🔴 CRITICAL | 12 | ❌ | 6.6s |
+| scholar-evaluation | 🔴 CRITICAL | 6 | ❌ | 1.9s |
+| scientific-critical-thinking | 🔴 CRITICAL | 6 | ❌ | 0.6s |
+| scientific-schematics | 🔴 CRITICAL | 6 | ❌ | 0.6s |
+| scientific-slides | 🔴 CRITICAL | 10 | ❌ | 3.5s |
+| scientific-writing | 🔴 CRITICAL | 6 | ❌ | 1.9s |
+| treatment-plans | 🔴 CRITICAL | 6 | ❌ | 5.4s |
+| venue-templates | 🔴 CRITICAL | 6 | ❌ | 3.6s |
 | esm | 🟠 HIGH | 2 | ❌ | 0.0s |
 | geomaster | 🟠 HIGH | 4 | ❌ | 0.0s |
 | modal | 🟠 HIGH | 6 | ❌ | 0.0s |
 | pathml | 🟠 HIGH | 5 | ❌ | 0.0s |
 | polars | 🟠 HIGH | 2 | ❌ | 0.0s |
-| pytorch-lightning | 🟠 HIGH | 2 | ❌ | 0.1s |
+| pytorch-lightning | 🟠 HIGH | 2 | ❌ | 0.2s |
 | qutip | 🟠 HIGH | 2 | ❌ | 0.0s |
 | sympy | 🟠 HIGH | 2 | ❌ | 0.0s |
 | torch-geometric | 🟠 HIGH | 4 | ❌ | 0.0s |
@@ -42,11 +42,11 @@
 | transformers | 🟠 HIGH | 2 | ❌ | 0.0s |
 | exa-search | 🟡 MEDIUM | 3 | ✅ | 0.0s |
 | imaging-data-commons | 🟡 MEDIUM | 2 | ✅ | 0.0s |
-| labarchive-integration | 🟡 MEDIUM | 4 | ✅ | 2.4s |
-| open-notebook | 🟡 MEDIUM | 16 | ✅ | 1.8s |
-| phylogenetics | 🟡 MEDIUM | 5 | ✅ | 1.1s |
+| labarchive-integration | 🟡 MEDIUM | 4 | ✅ | 3.2s |
+| open-notebook | 🟡 MEDIUM | 16 | ✅ | 2.4s |
+| phylogenetics | 🟡 MEDIUM | 5 | ✅ | 1.4s |
 | protocolsio-integration | 🟡 MEDIUM | 3 | ✅ | 0.0s |
-| pymatgen | 🟡 MEDIUM | 2 | ✅ | 2.6s |
+| pymatgen | 🟡 MEDIUM | 2 | ✅ | 3.5s |
 | adaptyv | ⚪ INFO | 1 | ✅ | 0.0s |
 | aeon | ⚪ INFO | 1 | ✅ | 0.0s |
 | anndata | ⚪ INFO | 1 | ✅ | 0.0s |
@@ -56,7 +56,7 @@
 | bgpt-paper-search | ⚪ INFO | 1 | ✅ | 0.0s |
 | bids | ⚪ INFO | 2 | ✅ | 0.0s |
 | biopython | ⚪ INFO | 1 | ✅ | 0.0s |
-| bioservices | ⚪ INFO | 1 | ✅ | 6.1s |
+| bioservices | ⚪ INFO | 1 | ✅ | 8.0s |
 | cellxgene-census | ⚪ INFO | 1 | ✅ | 0.0s |
 | cirq | ⚪ INFO | 1 | ✅ | 0.0s |
 | cobrapy | ⚪ INFO | 1 | ✅ | 0.0s |
@@ -64,88 +64,88 @@
 | dask | ⚪ INFO | 1 | ✅ | 0.0s |
 | database-lookup | ⚪ INFO | 1 | ✅ | 0.0s |
 | datamol | ⚪ INFO | 1 | ✅ | 0.0s |
-| deepchem | ⚪ INFO | 1 | ✅ | 2.1s |
-| deeptools | ⚪ INFO | 1 | ✅ | 1.0s |
+| deepchem | ⚪ INFO | 1 | ✅ | 2.8s |
+| deeptools | ⚪ INFO | 1 | ✅ | 1.3s |
 | depmap | ⚪ INFO | 1 | ✅ | 0.0s |
 | dhdna-profiler | ⚪ INFO | 1 | ✅ | 0.0s |
-| diffdock | ⚪ INFO | 1 | ✅ | 3.1s |
+| diffdock | ⚪ INFO | 1 | ✅ | 4.2s |
 | dnanexus-integration | ⚪ INFO | 1 | ✅ | 0.0s |
-| docx | ⚪ INFO | 1 | ✅ | 3.6s |
-| etetoolkit | ⚪ INFO | 1 | ✅ | 1.7s |
-| exploratory-data-analysis | ⚪ INFO | 1 | ✅ | 2.3s |
+| docx | ⚪ INFO | 1 | ✅ | 4.9s |
+| etetoolkit | ⚪ INFO | 1 | ✅ | 2.2s |
+| exploratory-data-analysis | ⚪ INFO | 1 | ✅ | 3.0s |
 | flowio | ⚪ INFO | 1 | ✅ | 0.0s |
 | fluidsim | ⚪ INFO | 1 | ✅ | 0.0s |
-| generate-image | ⚪ INFO | 1 | ✅ | 1.0s |
+| generate-image | ⚪ INFO | 1 | ✅ | 1.3s |
 | geniml | ⚪ INFO | 1 | ✅ | 0.0s |
 | geopandas | ⚪ INFO | 1 | ✅ | 0.0s |
-| get-available-resources | ⚪ INFO | 1 | ✅ | 1.4s |
-| gget | ⚪ INFO | 1 | ✅ | 2.1s |
+| get-available-resources | ⚪ INFO | 1 | ✅ | 1.9s |
+| gget | ⚪ INFO | 1 | ✅ | 2.8s |
 | ginkgo-cloud-lab | ⚪ INFO | 1 | ✅ | 0.0s |
 | glycoengineering | ⚪ INFO | 1 | ✅ | 0.0s |
 | gtars | ⚪ INFO | 1 | ✅ | 0.0s |
 | histolab | ⚪ INFO | 1 | ✅ | 0.0s |
-| hugging-science | ⚪ INFO | 1 | ✅ | 1.3s |
+| hugging-science | ⚪ INFO | 1 | ✅ | 1.7s |
 | hypogenic | ⚪ INFO | 1 | ✅ | 0.0s |
-| iso-13485-certification | ⚪ INFO | 1 | ✅ | 0.3s |
+| iso-13485-certification | ⚪ INFO | 1 | ✅ | 0.4s |
 | lamindb | ⚪ INFO | 1 | ✅ | 0.0s |
 | latchbio-integration | ⚪ INFO | 1 | ✅ | 0.0s |
 | markdown-mermaid-writing | ⚪ INFO | 1 | ✅ | 0.0s |
-| market-research-reports | ⚪ INFO | 1 | ✅ | 0.8s |
+| market-research-reports | ⚪ INFO | 1 | ✅ | 1.0s |
 | matchms | ⚪ INFO | 1 | ✅ | 0.0s |
 | matlab | ⚪ INFO | 1 | ✅ | 0.0s |
-| matplotlib | ⚪ INFO | 1 | ✅ | 3.2s |
-| medchem | ⚪ INFO | 1 | ✅ | 2.0s |
+| matplotlib | ⚪ INFO | 1 | ✅ | 4.2s |
+| medchem | ⚪ INFO | 1 | ✅ | 2.6s |
 | molecular-dynamics | ⚪ INFO | 1 | ✅ | 0.0s |
 | molfeat | ⚪ INFO | 1 | ✅ | 0.0s |
 | networkx | ⚪ INFO | 1 | ✅ | 0.0s |
 | neurokit2 | ⚪ INFO | 1 | ✅ | 0.0s |
-| neuropixels-analysis | ⚪ INFO | 1 | ✅ | 3.2s |
+| neuropixels-analysis | ⚪ INFO | 1 | ✅ | 4.3s |
 | omero-integration | ⚪ INFO | 1 | ✅ | 0.0s |
-| opentrons-integration | ⚪ INFO | 1 | ✅ | 0.7s |
+| opentrons-integration | ⚪ INFO | 1 | ✅ | 0.9s |
 | optimize-for-gpu | ⚪ INFO | 1 | ✅ | 0.0s |
 | paper-lookup | ⚪ INFO | 1 | ✅ | 0.0s |
 | paperzilla | ⚪ INFO | 1 | ✅ | 0.0s |
 | parallel-web | ⚪ INFO | 1 | ✅ | 0.0s |
-| pdf | ⚪ INFO | 1 | ✅ | 3.8s |
+| pdf | ⚪ INFO | 1 | ✅ | 5.2s |
 | pennylane | ⚪ INFO | 1 | ✅ | 0.0s |
 | polars-bio | ⚪ INFO | 1 | ✅ | 0.0s |
-| pptx | ⚪ INFO | 1 | ✅ | 6.3s |
-| primekg | ⚪ INFO | 1 | ✅ | 0.8s |
-| pufferlib | ⚪ INFO | 1 | ✅ | 0.9s |
+| pptx | ⚪ INFO | 1 | ✅ | 8.3s |
+| primekg | ⚪ INFO | 1 | ✅ | 1.0s |
+| pufferlib | ⚪ INFO | 1 | ✅ | 1.2s |
 | pydeseq2 | ⚪ INFO | 1 | ✅ | 0.0s |
-| pydicom | ⚪ INFO | 1 | ✅ | 0.8s |
+| pydicom | ⚪ INFO | 1 | ✅ | 1.1s |
 | pyhealth | ⚪ INFO | 1 | ✅ | 0.0s |
 | pylabrobot | ⚪ INFO | 1 | ✅ | 0.0s |
-| pymc | ⚪ INFO | 1 | ✅ | 3.8s |
-| pymoo | ⚪ INFO | 1 | ✅ | 0.9s |
+| pymc | ⚪ INFO | 1 | ✅ | 5.1s |
+| pymoo | ⚪ INFO | 1 | ✅ | 1.1s |
 | pyopenms | ⚪ INFO | 1 | ✅ | 0.0s |
 | pysam | ⚪ INFO | 1 | ✅ | 0.0s |
-| pytdc | ⚪ INFO | 1 | ✅ | 2.6s |
+| pytdc | ⚪ INFO | 1 | ✅ | 3.4s |
 | pyzotero | ⚪ INFO | 1 | ✅ | 0.0s |
 | qiskit | ⚪ INFO | 1 | ✅ | 0.0s |
-| rdkit | ⚪ INFO | 1 | ✅ | 2.3s |
+| rdkit | ⚪ INFO | 1 | ✅ | 3.1s |
 | rowan | ⚪ INFO | 1 | ✅ | 0.0s |
-| scanpy | ⚪ INFO | 1 | ✅ | 0.6s |
+| scanpy | ⚪ INFO | 1 | ✅ | 0.8s |
 | scientific-brainstorming | ⚪ INFO | 1 | ✅ | 0.0s |
-| scientific-visualization | ⚪ INFO | 1 | ✅ | 1.5s |
+| scientific-visualization | ⚪ INFO | 1 | ✅ | 2.1s |
 | scikit-bio | ⚪ INFO | 1 | ✅ | 0.0s |
-| scikit-learn | ⚪ INFO | 1 | ✅ | 1.8s |
+| scikit-learn | ⚪ INFO | 1 | ✅ | 2.4s |
 | scikit-survival | ⚪ INFO | 1 | ✅ | 0.0s |
 | scvelo | ⚪ INFO | 1 | ✅ | 0.0s |
 | scvi-tools | ⚪ INFO | 1 | ✅ | 0.0s |
 | seaborn | ⚪ INFO | 1 | ✅ | 0.0s |
 | shap | ⚪ INFO | 1 | ✅ | 0.0s |
-| simpy | ⚪ INFO | 1 | ✅ | 0.4s |
-| stable-baselines3 | ⚪ INFO | 1 | ✅ | 0.5s |
-| statistical-analysis | ⚪ INFO | 1 | ✅ | 1.9s |
+| simpy | ⚪ INFO | 1 | ✅ | 0.6s |
+| stable-baselines3 | ⚪ INFO | 1 | ✅ | 0.7s |
+| statistical-analysis | ⚪ INFO | 1 | ✅ | 2.6s |
 | statsmodels | ⚪ INFO | 1 | ✅ | 0.0s |
 | tiledbvcf | ⚪ INFO | 1 | ✅ | 0.0s |
-| timesfm-forecasting | ⚪ INFO | 1 | ✅ | 8.5s |
+| timesfm-forecasting | ⚪ INFO | 1 | ✅ | 11.1s |
 | umap-learn | ⚪ INFO | 1 | ✅ | 0.0s |
 | usfiscaldata | ⚪ INFO | 1 | ✅ | 0.0s |
 | vaex | ⚪ INFO | 1 | ✅ | 0.0s |
 | what-if-oracle | ⚪ INFO | 1 | ✅ | 0.0s |
-| xlsx | ⚪ INFO | 1 | ✅ | 3.4s |
+| xlsx | ⚪ INFO | 1 | ✅ | 4.5s |
 | zarr-python | ⚪ INFO | 1 | ✅ | 0.0s |
 
 ## Detailed Findings
@@ -153,12 +153,12 @@
 ### autoskill — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 7 files
-  > Environment variable access with network calls in scripts/run.py, scripts/backends.py, scripts/doctor.py
-  > **Remediation:** Review data flow across files: scripts/run.py, scripts/backends.py, tests/test_e2e.py, tests/test_fetch_window.py, tests/test_backends.py, tests/test_run.py, scripts/doctor.py
+  > Environment variable access with network calls in scripts/doctor.py, scripts/run.py, scripts/backends.py
+  > **Remediation:** Review data flow across files: scripts/run.py, scripts/doctor.py, tests/test_e2e.py, tests/test_run.py, tests/test_backends.py, scripts/backends.py, tests/test_fetch_window.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 8 files
-  > Multi-file exfiltration chain detected: scripts/run.py, scripts/backends.py, scripts/doctor.py collect data → tests/smoke_lmstudio.py, scripts/run.py → tests/test_backends.py, tests/test_run.py, tests/test_fetch_window.py, tests/test_e2e.py, scripts/run.py, scripts/backends.py, scripts/doctor.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/run.py, scripts/backends.py, tests/test_e2e.py, tests/test_fetch_window.py, tests/test_backends.py, tests/test_run.py, scripts/doctor.py, tests/smoke_lmstudio.py
+  > Multi-file exfiltration chain detected: scripts/doctor.py, scripts/run.py, scripts/backends.py collect data → tests/smoke_lmstudio.py, scripts/run.py → tests/test_fetch_window.py, tests/test_run.py, tests/test_backends.py, tests/test_e2e.py, scripts/doctor.py, scripts/run.py, scripts/backends.py transmit to network
+  > **Remediation:** Review data flow across files: scripts/run.py, scripts/doctor.py, tests/test_e2e.py, tests/test_run.py, tests/test_backends.py, tests/smoke_lmstudio.py, scripts/backends.py, tests/test_fetch_window.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -198,12 +198,12 @@
 ### citation-management — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 6 files
-  > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/extract_metadata.py, scripts/search_pubmed.py
-  > **Remediation:** Review data flow across files: scripts/search_pubmed.py, scripts/doi_to_bibtex.py, scripts/generate_schematic_ai.py, scripts/extract_metadata.py, scripts/generate_schematic.py, scripts/validate_citations.py
+  > Environment variable access with network calls in scripts/search_pubmed.py, scripts/generate_schematic.py, scripts/extract_metadata.py, scripts/generate_schematic_ai.py
+  > **Remediation:** Review data flow across files: scripts/extract_metadata.py, scripts/search_pubmed.py, scripts/doi_to_bibtex.py, scripts/validate_citations.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 6 files
-  > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/extract_metadata.py, scripts/search_pubmed.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py, scripts/extract_metadata.py, scripts/doi_to_bibtex.py, scripts/validate_citations.py, scripts/search_pubmed.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/search_pubmed.py, scripts/doi_to_bibtex.py, scripts/generate_schematic_ai.py, scripts/extract_metadata.py, scripts/generate_schematic.py, scripts/validate_citations.py
+  > Multi-file exfiltration chain detected: scripts/search_pubmed.py, scripts/generate_schematic.py, scripts/extract_metadata.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/search_pubmed.py, scripts/validate_citations.py, scripts/extract_metadata.py, scripts/generate_schematic_ai.py, scripts/doi_to_bibtex.py transmit to network
+  > **Remediation:** Review data flow across files: scripts/extract_metadata.py, scripts/search_pubmed.py, scripts/doi_to_bibtex.py, scripts/validate_citations.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -249,11 +249,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -279,11 +279,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -309,11 +309,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -339,11 +339,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_infographic.py, scripts/generate_infographic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_infographic.py, scripts/generate_infographic_ai.py
+  > **Remediation:** Review data flow across files: scripts/generate_infographic_ai.py, scripts/generate_infographic.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_infographic.py, scripts/generate_infographic_ai.py collect data → scripts/generate_infographic_ai.py → scripts/generate_infographic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_infographic.py, scripts/generate_infographic_ai.py
+  > **Remediation:** Review data flow across files: scripts/generate_infographic_ai.py, scripts/generate_infographic.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -369,11 +369,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -399,11 +399,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 3 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py, scripts/verify_citations.py
+  > **Remediation:** Review data flow across files: scripts/verify_citations.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 3 files
-  > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py, scripts/verify_citations.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py, scripts/verify_citations.py
+  > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/verify_citations.py, scripts/generate_schematic_ai.py transmit to network
+  > **Remediation:** Review data flow across files: scripts/verify_citations.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -428,12 +428,12 @@
 ### markitdown — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 3 files
-  > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/convert_with_ai.py
-  > **Remediation:** Review data flow across files: scripts/convert_with_ai.py, scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > Environment variable access with network calls in scripts/generate_schematic.py, scripts/convert_with_ai.py, scripts/generate_schematic_ai.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/convert_with_ai.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 3 files
-  > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/convert_with_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/convert_with_ai.py, scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/convert_with_ai.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/convert_with_ai.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -464,11 +464,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -494,11 +494,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -524,11 +524,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -553,12 +553,12 @@
 ### research-lookup — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 6 files
-  > Environment variable access with network calls in research_lookup.py, examples.py, lookup.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/research_lookup.py
-  > **Remediation:** Review data flow across files: scripts/research_lookup.py, research_lookup.py, scripts/generate_schematic_ai.py, scripts/generate_schematic.py, examples.py, lookup.py
+  > Environment variable access with network calls in examples.py, lookup.py, research_lookup.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/research_lookup.py
+  > **Remediation:** Review data flow across files: examples.py, research_lookup.py, scripts/research_lookup.py, lookup.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 6 files
-  > Multi-file exfiltration chain detected: research_lookup.py, examples.py, lookup.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/research_lookup.py collect data → scripts/generate_schematic_ai.py → research_lookup.py, scripts/generate_schematic_ai.py, scripts/research_lookup.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/research_lookup.py, research_lookup.py, scripts/generate_schematic_ai.py, scripts/generate_schematic.py, examples.py, lookup.py
+  > Multi-file exfiltration chain detected: examples.py, lookup.py, research_lookup.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/research_lookup.py collect data → scripts/generate_schematic_ai.py → research_lookup.py, scripts/generate_schematic_ai.py, scripts/research_lookup.py transmit to network
+  > **Remediation:** Review data flow across files: examples.py, research_lookup.py, scripts/research_lookup.py, lookup.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -614,11 +614,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -644,11 +644,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -674,11 +674,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -703,12 +703,12 @@
 ### scientific-slides — 🔴 CRITICAL
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 4 files
-  > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/generate_slide_image.py, scripts/generate_slide_image_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_slide_image_ai.py, scripts/generate_schematic.py, scripts/generate_slide_image.py
+  > Environment variable access with network calls in scripts/generate_slide_image.py, scripts/generate_schematic.py, scripts/generate_slide_image_ai.py, scripts/generate_schematic_ai.py
+  > **Remediation:** Review data flow across files: scripts/generate_slide_image_ai.py, scripts/generate_schematic.py, scripts/generate_slide_image.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 4 files
-  > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py, scripts/generate_slide_image.py, scripts/generate_slide_image_ai.py collect data → scripts/generate_schematic_ai.py, scripts/generate_slide_image_ai.py → scripts/generate_schematic_ai.py, scripts/generate_slide_image_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_slide_image_ai.py, scripts/generate_schematic.py, scripts/generate_slide_image.py
+  > Multi-file exfiltration chain detected: scripts/generate_slide_image.py, scripts/generate_schematic.py, scripts/generate_slide_image_ai.py, scripts/generate_schematic_ai.py collect data → scripts/generate_slide_image_ai.py, scripts/generate_schematic_ai.py → scripts/generate_slide_image_ai.py, scripts/generate_schematic_ai.py transmit to network
+  > **Remediation:** Review data flow across files: scripts/generate_slide_image_ai.py, scripts/generate_schematic.py, scripts/generate_slide_image.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -754,11 +754,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 3 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_image.py, scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_image.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 3 files
-  > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py, scripts/generate_image.py → scripts/generate_schematic_ai.py, scripts/generate_image.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_image.py, scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_image.py, scripts/generate_schematic_ai.py → scripts/generate_image.py, scripts/generate_schematic_ai.py transmit to network
+  > **Remediation:** Review data flow across files: scripts/generate_image.py, scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -784,11 +784,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
@@ -814,11 +814,11 @@
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_ENV_VAR_EXFILTRATION` — Cross-file env var exfiltration: 2 files
   > Environment variable access with network calls in scripts/generate_schematic.py, scripts/generate_schematic_ai.py
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **🔴 CRITICAL** `BEHAVIOR_CROSSFILE_EXFILTRATION_CHAIN` — Cross-file exfiltration chain: 2 files
   > Multi-file exfiltration chain detected: scripts/generate_schematic.py, scripts/generate_schematic_ai.py collect data → scripts/generate_schematic_ai.py → scripts/generate_schematic_ai.py transmit to network
-  > **Remediation:** Review data flow across files: scripts/generate_schematic_ai.py, scripts/generate_schematic.py
+  > **Remediation:** Review data flow across files: scripts/generate_schematic.py, scripts/generate_schematic_ai.py
 
 - **⚪ INFO** `LLM_ANALYSIS_FAILED` — LLM analysis failed
   > The LLM analyzer encountered an error and could not complete semantic analysis: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=MiniMax-M2.7
